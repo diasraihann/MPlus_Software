@@ -25,12 +25,23 @@ dag = DAG(
     tags=["drive", "refine"],
 )
 
+mplus_stt = BashOperator(
+    task_id="mplus_stt",
+    depends_on_past=False,
+    bash_command=(
+        "cd /script/staging ; "
+        "python mplus_stt.py || exit 3"
+    ),
+    dag=dag,
+)
+
 ref_mplus_stt = BashOperator(
     task_id="ref_mplus_stt",
-    depends_on_past=False,
     bash_command=(
         "cd /script/refine ; "
         "python ref_mplus_stt.py || exit 3"
     ),
     dag=dag,
 )
+
+mplus_stt >> ref_mplus_stt

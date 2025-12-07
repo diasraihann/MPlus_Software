@@ -1,9 +1,10 @@
 import pandas as pd
 import logging
 import subprocess
-import sys
+import psycopg2
 from pathlib import Path
 from sqlalchemy import create_engine, text
+from io import StringIO
 
 # --- Config ---
 table = "mplus_stt"
@@ -19,16 +20,66 @@ profiles_path = project_path
 # --- Logging setup ---
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
+def copy_dataframe_to_postgres(df, table_name, schema_name):
+    conn = psycopg2.connect(
+        host="localhost",
+        port=5432,
+        database="dwh",
+        user="admin",
+        password="admin"
+    )
+    
+    try:
+        cursor = conn.cursor()
+        # Drop table jika ada
+        cursor.execute(f"DROP TABLE IF EXISTS {schema_name}.{table_name} CASCADE")
+        # Create table
+        columns = []
+        for col, dtype in df.dtypes.items():
+            if dtype == 'int64':
+                pg_type = 'INTEGER'
+            elif dtype == 'float64':
+                pg_type = 'DOUBLE PRECISION'
+            elif dtype == 'bool':
+                pg_type = 'BOOLEAN'
+            elif dtype == 'datetime64[ns]':
+                pg_type = 'TIMESTAMP'
+            else:
+                pg_type = 'TEXT'
+            columns.append(f'"{col}" {pg_type}')
+        
+        create_table_sql = f"""
+            CREATE TABLE {schema_name}.{table_name} (
+                {', '.join(columns)}
+            )
+        """
+        cursor.execute(create_table_sql)
+        
+        # Copy data
+        buffer = StringIO()
+        df.to_csv(buffer, index=False, header=False, sep='\t', na_rep='\\N')
+        buffer.seek(0)
+        
+        # Set search_path dulu baru COPY
+        cursor.execute(f"SET search_path TO {schema_name}")
+        cursor.copy_from(buffer, table_name, sep='\t', null='\\N')
+        
+        conn.commit()
+        logging.info(f"Berhasil upload {len(df):,} rows ke {schema_name}.{table_name}")
+        
+    except Exception as e:
+        conn.rollback()
+        raise e
+    finally:
+        cursor.close()
+        conn.close()
+
 def main():
-    engine = None
     try:
         # 1. Load parquet ke Postgres
-        engine = create_engine(db_url)
         df = pd.read_parquet(staging_file)
-        df.to_sql(table, engine, schema=target_schema, if_exists="replace", index=False)
+        copy_dataframe_to_postgres(df, table, target_schema)
         logging.info(f"Tabel '{target_schema}.{table}' berhasil dibuat dari parquet")
-        engine.dispose()
-        engine = None
         
         # 2. Jalankan DBT dengan subprocess
         command = [
@@ -59,9 +110,6 @@ def main():
     except Exception as e:
         logging.error(f"Script execution failed: {e}")
         raise
-    finally:
-        if engine is not None:
-            engine.dispose()
 
 if __name__ == "__main__":
     main()

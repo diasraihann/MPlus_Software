@@ -36,16 +36,6 @@ dm_mplus_billing = BashOperator(
     dag=dag,
 )
 
-# Task : Running refine
-# ref_mplus_stt = BashOperator(
-#     task_id="ref_mplus_stt",
-#     bash_command=(
-#         "cd /script/refine ; "
-#         "python ref_mplus_stt.py || exit 3"
-#     ),
-#     dag=dag,
-# )
-
 # Sonsor dependency
 ref_mplus_stt = PythonSensor(
     task_id="ref_mplus_stt",
