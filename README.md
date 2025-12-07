@@ -1,7 +1,7 @@
 # MPlus Software Data Engineering Pipeline
 
 ## Deskripsi Proyek
-Proyek ini merupakan pipeline data engineering untuk memproses data transaksi Lion Parcel.  
+Proyek ini merupakan pipeline data engineering untuk memproses data transaksi MPlus Software.  
 Pipeline dibangun menggunakan **Docker**, **Airflow**, **dbt**, dan Python, serta mengikuti framework **layered architecture Postgre database**:  
 
 **Staging → Refined → Datamart**  
@@ -69,29 +69,29 @@ Di sini data sudah ditransformasi sesuai kebutuhan analisis.
 ```
 .
 ├─ .venv/                  # Virtual environment Python
-├─ airflow/
-│  ├─ config/
-│  ├─ dags/
-│  │  ├─ dmart/
-│  │  └─ source_to_target/
-│  ├─ logs/
-│  └─ plugins/
-├─ config/
-│  ├─ config/
-│  ├─ dags/
-│  ├─ logs/
-│  └─ plugins/
-├─ logs/
-├─ script/
-│  ├─ dbt/
-│  ├─ dmart/
-│  ├─ refine/
-│  └─ staging/
-├─ staging/
-│  └─ mplus_stt.parquet
-├─ docker-compose.yaml
-├─ README.md
-└─ requirements.txt
+├─ airflow/                
+│  ├─ config/              # Konfigurasi Airflow (env, connections, variables)
+│  ├─ dags/                # Folder untuk DAG Airflow
+│  │  ├─ dmart/            # DAG untuk proses Datamart
+│  │  └─ source_to_target/ # DAG untuk pipeline ETL dari source ke target
+│  ├─ logs/                # Log eksekusi Airflow
+│  └─ plugins/             # Custom operator, sensor, hook Airflow
+├─ config/                 
+│  ├─ config/              # Konfigurasi tambahan proyek
+│  ├─ dags/                # Konfigurasi DAG jika perlu di luar airflow/dags
+│  ├─ logs/                # Log tambahan jika ada
+│  └─ plugins/             # Plugin tambahan jika ada
+│  └─ docker-compose.yaml  # File docker-compose untuk menjalankan Airflow & dependencies
+├─ logs/                   # Log umum pipeline/skrip di luar Airflow
+├─ script/                 
+│  ├─ dbt/                 # Script dbt models atau run command
+│  ├─ dmart/               # Script transformasi data untuk datamart
+│  ├─ refine/              # Script untuk data refining/cleaning
+│  └─ staging/             # Script untuk load data ke staging
+├─ staging/                
+│  └─ mplus_stt.parquet    # Penyimpanan Bucket Data staging
+├─ README.md               # Dokumentasi proyek
+└─ requirements.txt        # List dependency Python
 ```
 
 
