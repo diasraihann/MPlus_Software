@@ -65,6 +65,15 @@ Layer akhir untuk reporting dan dashboard.
 Di sini data sudah ditransformasi sesuai kebutuhan analisis.
 
 
+## Data Flow
+Data flow ini mendeskripsikan pergerakan data dari sumber eksternal hingga menjadi Data Mart di Data Warehouse (PostgreSQL):
+- Extract (E): Airflow Worker ambil data mentah dari Google Drive / SFTP / API / file lokal.
+- Load Staging (L): Data dimuat ke skema Staging di PostgreSQL (postgres_dwh) tanpa transformasi.
+- Transform Refined (T): Airflow panggil dbt untuk transformasi, pembersihan, dan standarisasi di skema Refined, serta dbt membangun tabel Data Mart analitik.
+- Load Data Mart (L): Data hasil transformasi masuk ke skema Dmart (misal: dm_mplus_billing) untuk dashboard & BI.
+- Logging & Metadata: Airflow simpan status DAG, log eksekusi, dan metadata di DB dan folder ./logs.
+
+
 ## Struktur Folder 
 ```
 .
@@ -78,9 +87,7 @@ Di sini data sudah ditransformasi sesuai kebutuhan analisis.
 │  └─ plugins/             # Custom operator, sensor, hook Airflow
 ├─ config/                 
 │  ├─ config/              # Konfigurasi tambahan proyek
-│  ├─ dags/                # Konfigurasi DAG jika perlu di luar airflow/dags
 │  ├─ logs/                # Log tambahan jika ada
-│  └─ plugins/             # Plugin tambahan jika ada
 │  └─ docker-compose.yaml  # File docker-compose untuk menjalankan Airflow & dependencies
 ├─ logs/                   # Log umum pipeline/skrip di luar Airflow
 ├─ script/                 
@@ -94,13 +101,14 @@ Di sini data sudah ditransformasi sesuai kebutuhan analisis.
 └─ requirements.txt        # List dependency Python
 ```
 
+## How-to Set Up
 
-## Clone Repository
+### 1. Clone Repository
 git clone https://github.com/username/MPlus_Software.git
 cd MPlus_Software
 
 
-## Integrasi Airflow
+### 2. Integrasi Airflow
 
 1. Jalankan container Airflow:
 
@@ -141,12 +149,23 @@ tail -f logs/<nama_script>.log
 ```
 
 
-## Install Dependencies Requirements.txt
+### 3. Install Dependencies Requirements.txt
 
 Jalankan perintah berikut:
 ```
 pip install -r requirements.txt
 ```
+
+
+### 4. Menjalankan DAG
+
+Prosedur ini mengasumsikan semua layanan Docker Airflow Anda sudah berjalan (docker compose up -d).
+- Akses UI: Buka Airflow Webserver di http://localhost:8080 dan Login (admin/admin).
+- Cari DAG: Navigasi ke DAGs View (Halaman Utama) dan cari dm_mplus_billing.
+- Aktifkan (Unpause): Klik toggle switch di baris DAG untuk mengubah status dari Paused (Abu-abu) menjadi Aktif (Hijau).
+- Trigger Manual: Klik tombol ▶ Trigger DAG (ikon play) untuk memicu eksekusi manual.
+- Monitor: Klik pada nama DAG, lalu gunakan Graph View untuk memantau status setiap tugas (task) yang berjalan.
+- Cek Log: Jika ada tugas yang gagal, klik tugas tersebut di Graph View dan pilih menu Log untuk debugging.
 
 ## Catatan Penting & Tips Troubleshooting
 
