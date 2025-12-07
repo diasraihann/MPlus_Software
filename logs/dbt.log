@@ -1,0 +1,115 @@
+[0m06:12:33.920067 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026343FDA7B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026346E6F590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026346E6E5D0>]}
+
+
+============================== 06:12:33.927102 | 5c0b00a2-bac7-4b4a-8744-d5776bdd4826 ==============================
+[0m06:12:33.927102 [info ] [MainThread]: Running with dbt=1.10.15
+[0m06:12:33.929078 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'profiles_dir': 'C:\\Users\\user\\.dbt', 'send_anonymous_usage_stats': 'True', 'use_colors': 'True', 'cache_selected_only': 'False', 'target_path': 'None', 'version_check': 'True', 'invocation_command': 'dbt init dbt', 'log_format': 'default', 'warn_error': 'None', 'introspect': 'True', 'debug': 'False', 'log_cache_events': 'False', 'fail_fast': 'False', 'no_print': 'None', 'use_experimental_parser': 'False', 'quiet': 'False', 'printer_width': '80', 'empty': 'None', 'indirect_selection': 'eager', 'log_path': 'logs', 'write_json': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])'}
+[0m06:12:33.953683 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\user\.dbt
+[0m06:14:25.070779 [debug] [MainThread]: Starter project path: C:\ProgramData\miniconda3\Lib\site-packages\dbt\include\starter_project
+[0m06:14:25.105199 [info ] [MainThread]: 
+Your new dbt project "mplus_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m06:14:25.106208 [info ] [MainThread]: Setting up your profile.
+[0m06:15:28.047529 [error] [MainThread]: Encountered an error:
+
+[0m06:15:28.052526 [error] [MainThread]: Traceback (most recent call last):
+  File "C:\ProgramData\miniconda3\Lib\site-packages\dbt\cli\requires.py", line 178, in wrapper
+    result, success = func(*args, **kwargs)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\miniconda3\Lib\site-packages\dbt\cli\requires.py", line 128, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\miniconda3\Lib\site-packages\dbt\cli\main.py", line 483, in init
+    results = task.run()
+              ^^^^^^^^^^
+  File "C:\ProgramData\miniconda3\Lib\site-packages\dbt\task\init.py", line 346, in run
+    self.setup_profile(profile_name)
+  File "C:\ProgramData\miniconda3\Lib\site-packages\dbt\task\init.py", line 261, in setup_profile
+    adapter = self.ask_for_adapter_choice()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\miniconda3\Lib\site-packages\dbt\task\init.py", line 242, in ask_for_adapter_choice
+    numeric_choice = click.prompt(prompt_msg, type=click.INT)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\miniconda3\Lib\site-packages\click\termui.py", line 171, in prompt
+    value = prompt_func(prompt)
+            ^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\miniconda3\Lib\site-packages\click\termui.py", line 154, in prompt_func
+    raise Abort() from None
+click.exceptions.Abort
+
+[0m06:15:28.054526 [debug] [MainThread]: Command `dbt init` failed at 06:15:28.054526 after 174.30 seconds
+[0m06:15:28.055526 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026347582F00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026348E1D3A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026348DC5F10>]}
+[0m06:15:28.055526 [debug] [MainThread]: Flushing usage events
+[0m06:15:29.304986 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m06:15:42.202833 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F51FE3E7E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F5223F3C50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F5223F38C0>]}
+
+
+============================== 06:15:42.207834 | 89589fa8-b6b3-421a-bbc7-5262ad57514e ==============================
+[0m06:15:42.207834 [info ] [MainThread]: Running with dbt=1.10.15
+[0m06:15:42.208832 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True', 'version_check': 'True', 'cache_selected_only': 'False', 'target_path': 'None', 'use_colors': 'True', 'invocation_command': 'dbt init dbt', 'log_format': 'default', 'warn_error': 'None', 'introspect': 'True', 'debug': 'False', 'log_cache_events': 'False', 'fail_fast': 'False', 'no_print': 'None', 'empty': 'None', 'quiet': 'False', 'use_experimental_parser': 'False', 'printer_width': '80', 'log_path': 'logs', 'indirect_selection': 'eager', 'write_json': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'profiles_dir': 'C:\\Users\\user\\.dbt'}
+[0m06:15:55.819200 [debug] [MainThread]: Starter project path: C:\ProgramData\miniconda3\Lib\site-packages\dbt\include\starter_project
+[0m06:15:55.839514 [info ] [MainThread]: 
+Your new dbt project "mplus_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m06:15:55.840523 [info ] [MainThread]: Setting up your profile.
+[0m06:17:33.225669 [error] [MainThread]: Encountered an error:
+
+[0m06:17:33.230706 [error] [MainThread]: Traceback (most recent call last):
+  File "C:\ProgramData\miniconda3\Lib\site-packages\dbt\cli\requires.py", line 178, in wrapper
+    result, success = func(*args, **kwargs)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\miniconda3\Lib\site-packages\dbt\cli\requires.py", line 128, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\miniconda3\Lib\site-packages\dbt\cli\main.py", line 483, in init
+    results = task.run()
+              ^^^^^^^^^^
+  File "C:\ProgramData\miniconda3\Lib\site-packages\dbt\task\init.py", line 346, in run
+    self.setup_profile(profile_name)
+  File "C:\ProgramData\miniconda3\Lib\site-packages\dbt\task\init.py", line 262, in setup_profile
+    self.create_profile_from_target(adapter, profile_name=profile_name)
+  File "C:\ProgramData\miniconda3\Lib\site-packages\dbt\task\init.py", line 179, in create_profile_from_target
+    self.create_profile_from_profile_template(profile_template, profile_name)
+  File "C:\ProgramData\miniconda3\Lib\site-packages\dbt\task\init.py", line 163, in create_profile_from_profile_template
+    target = self.generate_target_from_input(prompts, initial_target)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\miniconda3\Lib\site-packages\dbt\task\init.py", line 129, in generate_target_from_input
+    target[key] = click.prompt(
+                  ^^^^^^^^^^^^^
+  File "C:\ProgramData\miniconda3\Lib\site-packages\click\termui.py", line 171, in prompt
+    value = prompt_func(prompt)
+            ^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\miniconda3\Lib\site-packages\click\termui.py", line 154, in prompt_func
+    raise Abort() from None
+click.exceptions.Abort
+
+[0m06:17:33.231670 [debug] [MainThread]: Command `dbt init` failed at 06:17:33.231670 after 111.18 seconds
+[0m06:17:33.232669 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F522B1F0B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F5244D4D10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F5244D5550>]}
+[0m06:17:33.233668 [debug] [MainThread]: Flushing usage events
+[0m06:17:34.385862 [debug] [MainThread]: An error was encountered while trying to flush usage events

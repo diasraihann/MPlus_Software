@@ -1,0 +1,19 @@
+mplus_dbt:
+  target: prod
+  outputs:
+    ref_prod:
+      type: postgres
+      host: localhost
+      user: admin
+      password: admin
+      port: 5432
+      dbname: dwh
+      schema: refine
+    dmart_prod:
+      type: postgres
+      host: localhost
+      user: admin
+      password: admin
+      port: 5432
+      dbname: dwh
+      schema: dmart
