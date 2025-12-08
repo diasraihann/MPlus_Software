@@ -32,17 +32,22 @@ psql --version
 ## Akses Layanan
 
 1. Airflow Webserver (UI)
+    ```
     URL: http://localhost:8080
+    ```
     Username: admin
     Password: admin
 
-2. Flower (Monitoring Celery)
+3. Flower (Monitoring Celery)
+    ```
     URL: http://localhost:5555
+    ```
 
-3. PostgreSQL Database
-    Host: localhost
-    Port: 5432
-    User/Password: admin/admin
+5. PostgreSQL Database
+    Host: localhost  
+    Port: 5432  
+    Username: admin  
+    Password: admin  
     Database: 
     - dwh: Data Warehouse (penyimpanan untuk schema refine dan dmart)
     - airflow: Metadata
@@ -52,24 +57,30 @@ psql --version
 
 1. Staging
 Tempat data mentah dimuat dari source, penyimpanan berupa bucket dalam format parquet.
-    Contoh tabel: staging/mplus_stt.parquet
+```
+   Contoh tabel: staging/mplus_stt.parquet
+```
 Data disimpan apa adanya di folder Staging, belum dibersihkan.
 
-2. Refined
+3. Refined
 Data dibersihkan, normalisasi dasar, duplikasi dihapus, missing value di-handle.
-    Folder script: script/refine
+```
+Folder script: script/refine
+```
 
-3. Datamart
+5. Datamart
 Layer akhir untuk reporting dan dashboard.
-    Folder script: script/dmart
+```
+Folder script: script/dmart
+```
 Di sini data sudah ditransformasi sesuai kebutuhan analisis.
 
 
 ## Data Flow
 Data flow ini mendeskripsikan pergerakan data dari sumber eksternal hingga menjadi Data Mart di Data Warehouse (PostgreSQL):
 - Extract (E): Airflow Worker ambil data mentah dari Google Drive / SFTP / API / file lokal.
-- Load Staging (L): Data dimuat ke skema Staging di PostgreSQL (postgres_dwh) tanpa transformasi.
-- Transform Refined (T): Airflow panggil dbt untuk transformasi, pembersihan, dan standarisasi di skema Refined, serta dbt membangun tabel Data Mart analitik.
+- Load Staging (L): Data dimuat ke skema Staging di lokal dalam bentuk parquet.
+- Transform Refined (T): Airflow panggil dbt untuk pembersihan dan standarisasi di skema Refined, serta dbt membangun tabel Data Mart.
 - Load Data Mart (L): Data hasil transformasi masuk ke skema Dmart (misal: dm_mplus_billing) untuk dashboard & BI.
 - Logging & Metadata: Airflow simpan status DAG, log eksekusi, dan metadata di DB dan folder ./logs.
 
@@ -86,10 +97,9 @@ Data flow ini mendeskripsikan pergerakan data dari sumber eksternal hingga menja
 │  ├─ logs/                # Log eksekusi Airflow
 │  └─ plugins/             # Custom operator, sensor, hook Airflow
 ├─ config/                 
-│  ├─ config/              # Konfigurasi tambahan proyek
-│  ├─ logs/                # Log tambahan jika ada
 │  └─ docker-compose.yaml  # File docker-compose untuk menjalankan Airflow & dependencies
-├─ logs/                   # Log umum pipeline/skrip di luar Airflow
+│  └─ dockerfile           # List dependensi Python yang diperlukan
+│  └─ requirements.txt     # Instruksi untuk membangun image Docker
 ├─ script/                 
 │  ├─ dbt/                 # Script dbt models atau run command
 │  ├─ dmart/               # Script transformasi data untuk datamart
@@ -98,23 +108,26 @@ Data flow ini mendeskripsikan pergerakan data dari sumber eksternal hingga menja
 ├─ staging/                
 │  └─ mplus_stt.parquet    # Penyimpanan Bucket Data staging
 ├─ README.md               # Dokumentasi proyek
-└─ requirements.txt        # List dependency Python
 ```
 
 ## How-to Set Up
 
 ### 1. Clone Repository
-git clone https://github.com/username/MPlus_Software.git
-cd MPlus_Software
+```
+git clone https://github.com/username/MPlus_Software.git 
+```
 
 
 ### 2. Integrasi Airflow
 
 1. Jalankan container Airflow:
 
-``` 
-# Build image pertama kali (tanpa cache)
-docker compose build --no-cache --progress=plain
+```
+# Change directory ke folder config
+cd MPlus_Software\config
+
+# Build image pertama kali
+docker compose up --build -d
 
 # Start Container
 docker-compose up -d 
@@ -123,15 +136,20 @@ docker-compose up -d
 docker compose ps
 ```
 
-2. Akses Airflow Web UI: http://localhost:8080
+2. Akses Airflow Web UI
+```
+http://localhost:8080
+```
+   Username: admin
+   Password: admin
 
-3. Trigger DAG sesuai pipeline di folder:
+4. Trigger DAG sesuai pipeline di folder:
 ```
 airflow/dags/source_to_target
 airflow/dags/dmart
 ```
 
-Testing & Debugging
+5. Testing & Debugging
 
 - Cek container Docker:
 ```
@@ -149,15 +167,7 @@ tail -f logs/<nama_script>.log
 ```
 
 
-### 3. Install Dependencies Requirements.txt
-
-Jalankan perintah berikut:
-```
-pip install -r requirements.txt
-```
-
-
-### 4. Menjalankan DAG
+### 3. Menjalankan DAG
 
 Prosedur ini mengasumsikan semua layanan Docker Airflow Anda sudah berjalan (docker compose up -d).
 - Akses UI: Buka Airflow Webserver di http://localhost:8080 dan Login (admin/admin).
