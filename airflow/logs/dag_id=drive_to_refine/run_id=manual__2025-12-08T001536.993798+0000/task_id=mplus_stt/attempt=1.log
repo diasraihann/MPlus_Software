@@ -1,0 +1,48 @@
+[2025-12-08T00:15:38.937+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-12-08T00:15:38.969+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: drive_to_refine.mplus_stt manual__2025-12-08T00:15:36.993798+00:00 [queued]>
+[2025-12-08T00:15:38.979+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: drive_to_refine.mplus_stt manual__2025-12-08T00:15:36.993798+00:00 [queued]>
+[2025-12-08T00:15:38.980+0000] {taskinstance.py:2303} INFO - Starting attempt 1 of 1
+[2025-12-08T00:15:38.998+0000] {taskinstance.py:2327} INFO - Executing <Task(BashOperator): mplus_stt> on 2025-12-08 00:15:36.993798+00:00
+[2025-12-08T00:15:39.003+0000] {warnings.py:110} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=194) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-12-08T00:15:39.005+0000] {standard_task_runner.py:63} INFO - Started process 202 to run task
+[2025-12-08T00:15:39.006+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'drive_to_refine', 'mplus_stt', 'manual__2025-12-08T00:15:36.993798+00:00', '--job-id', '26', '--raw', '--subdir', 'DAGS_FOLDER/source_to_target/drive_to_refine.py', '--cfg-path', '/tmp/tmp8b100oc5']
+[2025-12-08T00:15:39.010+0000] {standard_task_runner.py:91} INFO - Job 26: Subtask mplus_stt
+[2025-12-08T00:15:39.106+0000] {task_command.py:426} INFO - Running <TaskInstance: drive_to_refine.mplus_stt manual__2025-12-08T00:15:36.993798+00:00 [running]> on host 07340001eaa2
+[2025-12-08T00:15:39.237+0000] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='drive_to_refine' AIRFLOW_CTX_TASK_ID='mplus_stt' AIRFLOW_CTX_EXECUTION_DATE='2025-12-08T00:15:36.993798+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-12-08T00:15:36.993798+00:00'
+[2025-12-08T00:15:39.241+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-12-08T00:15:39.276+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2025-12-08T00:15:39.277+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'cd /script/staging ; python mplus_stt.py || exit 3']
+[2025-12-08T00:15:39.290+0000] {subprocess.py:86} INFO - Output:
+[2025-12-08T00:15:40.751+0000] {subprocess.py:93} INFO - Retrieving folder contents
+[2025-12-08T00:15:41.546+0000] {subprocess.py:93} INFO - Retrieving folder contents completed
+[2025-12-08T00:15:41.547+0000] {subprocess.py:93} INFO - Building directory structure
+[2025-12-08T00:15:41.547+0000] {subprocess.py:93} INFO - Building directory structure completed
+[2025-12-08T00:15:44.176+0000] {subprocess.py:93} INFO - Downloading...
+[2025-12-08T00:15:44.177+0000] {subprocess.py:93} INFO - From: https://drive.google.com/uc?id=1i-9rOleCUaVOt64-SB6z0XAVeLZaxlqL
+[2025-12-08T00:15:44.177+0000] {subprocess.py:93} INFO - To: /script/temp_files/STT1.csv
+[2025-12-08T00:15:44.195+0000] {subprocess.py:93} INFO - Downloading all files inside Google Drive folder...
+[2025-12-08T00:15:44.196+0000] {subprocess.py:93} INFO - Processing file 1i-9rOleCUaVOt64-SB6z0XAVeLZaxlqL STT1.csv
+[2025-12-08T00:15:44.197+0000] {subprocess.py:93} INFO - Processing file 1bfmlLJYx2fYNf2vhwiqIYpVGdrJiKvQ- STT2.csv
+[2025-12-08T00:15:44.197+0000] {subprocess.py:93} INFO -   0%|          | 0.00/11.6k [00:00<?, ?B/s]100%|██████████| 11.6k/11.6k [00:00<00:00, 12.9MB/s]
+[2025-12-08T00:15:46.297+0000] {subprocess.py:93} INFO - Downloading...
+[2025-12-08T00:15:46.298+0000] {subprocess.py:93} INFO - From: https://drive.google.com/uc?id=1bfmlLJYx2fYNf2vhwiqIYpVGdrJiKvQ-
+[2025-12-08T00:15:46.299+0000] {subprocess.py:93} INFO - To: /script/temp_files/STT2.csv
+[2025-12-08T00:15:46.299+0000] {subprocess.py:93} INFO -   0%|          | 0.00/13.8k [00:00<?, ?B/s]100%|██████████| 13.8k/13.8k [00:00<00:00, 23.9MB/s]
+[2025-12-08T00:15:46.305+0000] {subprocess.py:93} INFO - Download completed
+[2025-12-08T00:15:46.367+0000] {subprocess.py:93} INFO - All files downloaded to: /script/temp_files
+[2025-12-08T00:15:46.368+0000] {subprocess.py:93} INFO - Found files: ['/script/temp_files/STT1.csv', '/script/temp_files/STT2.csv']
+[2025-12-08T00:15:46.368+0000] {subprocess.py:93} INFO - Reading STT1.csv ...
+[2025-12-08T00:15:46.368+0000] {subprocess.py:93} INFO - Reading STT2.csv ...
+[2025-12-08T00:15:46.369+0000] {subprocess.py:93} INFO - 
+[2025-12-08T00:15:46.369+0000] {subprocess.py:93} INFO - Saved unified parquet → /staging/mplus_stt.parquet
+[2025-12-08T00:15:46.370+0000] {subprocess.py:93} INFO - 
+[2025-12-08T00:15:46.370+0000] {subprocess.py:93} INFO - Removing temp folder completely...
+[2025-12-08T00:15:46.371+0000] {subprocess.py:93} INFO - Temp folder removed.
+[2025-12-08T00:15:46.458+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2025-12-08T00:15:46.459+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-12-08T00:15:46.491+0000] {taskinstance.py:1205} INFO - Marking task as SUCCESS. dag_id=drive_to_refine, task_id=mplus_stt, execution_date=20251208T001536, start_date=20251208T001538, end_date=20251208T001546
+[2025-12-08T00:15:46.548+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2025-12-08T00:15:46.570+0000] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-12-08T00:15:46.575+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

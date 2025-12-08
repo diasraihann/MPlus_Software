@@ -1,0 +1,46 @@
+[2025-12-08T09:23:24.323+0700] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-12-08T09:23:24.352+0700] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: drive_to_refine.ref_mplus_stt manual__2025-12-07T23:32:54.874488+00:00 [queued]>
+[2025-12-08T09:23:24.363+0700] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: drive_to_refine.ref_mplus_stt manual__2025-12-07T23:32:54.874488+00:00 [queued]>
+[2025-12-08T09:23:24.366+0700] {taskinstance.py:2303} INFO - Starting attempt 2 of 2
+[2025-12-08T09:23:24.381+0700] {taskinstance.py:2327} INFO - Executing <Task(BashOperator): ref_mplus_stt> on 2025-12-07 23:32:54.874488+00:00
+[2025-12-08T09:23:24.387+0700] {warnings.py:110} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=837) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-12-08T09:23:24.389+0700] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'drive_to_refine', 'ref_mplus_stt', 'manual__2025-12-07T23:32:54.874488+00:00', '--job-id', '86', '--raw', '--subdir', 'DAGS_FOLDER/source_to_target/drive_to_refine.py', '--cfg-path', '/tmp/tmpjfu4thkn']
+[2025-12-08T09:23:24.391+0700] {standard_task_runner.py:63} INFO - Started process 838 to run task
+[2025-12-08T09:23:24.391+0700] {standard_task_runner.py:91} INFO - Job 86: Subtask ref_mplus_stt
+[2025-12-08T09:23:24.477+0700] {task_command.py:426} INFO - Running <TaskInstance: drive_to_refine.ref_mplus_stt manual__2025-12-07T23:32:54.874488+00:00 [running]> on host 455f26e89cec
+[2025-12-08T09:23:24.606+0700] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='drive_to_refine' AIRFLOW_CTX_TASK_ID='ref_mplus_stt' AIRFLOW_CTX_EXECUTION_DATE='2025-12-07T23:32:54.874488+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-12-07T23:32:54.874488+00:00'
+[2025-12-08T09:23:24.608+0700] {taskinstance.py:430} INFO - ::endgroup::
+[2025-12-08T09:23:24.622+0700] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2025-12-08T09:23:24.623+0700] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'cd /script/refine ; python ref_mplus_stt.py || exit 3']
+[2025-12-08T09:23:24.633+0700] {subprocess.py:86} INFO - Output:
+[2025-12-08T09:23:26.000+0700] {subprocess.py:93} INFO - 2025-12-08 09:23:26,000 - INFO - Berhasil upload 550 rows ke refine.mplus_stt
+[2025-12-08T09:23:26.001+0700] {subprocess.py:93} INFO - 2025-12-08 09:23:26,000 - INFO - Tabel 'refine.mplus_stt' berhasil dibuat dari parquet
+[2025-12-08T09:23:26.002+0700] {subprocess.py:93} INFO - 2025-12-08 09:23:26,000 - INFO - Running DBT command: dbt run --select tag:mplus_stt --target ref_prod --project-dir /script/dbt --profiles-dir /script/dbt
+[2025-12-08T09:23:32.682+0700] {subprocess.py:93} INFO - 2025-12-08 09:23:32,681 - INFO - DBT run completed successfully.
+[2025-12-08T09:23:32.719+0700] {subprocess.py:93} INFO - 2025-12-08 09:23:32,719 - INFO - Tabel 'refine.mplus_stt' berhasil dihapus
+[2025-12-08T09:23:32.720+0700] {subprocess.py:93} INFO - [0m02:23:29  Running with dbt=1.7.0
+[2025-12-08T09:23:32.720+0700] {subprocess.py:93} INFO - [0m02:23:30  Registered adapter: postgres=1.7.0
+[2025-12-08T09:23:32.721+0700] {subprocess.py:93} INFO - [0m02:23:30  [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+[2025-12-08T09:23:32.722+0700] {subprocess.py:93} INFO - There are 1 unused configuration paths:
+[2025-12-08T09:23:32.723+0700] {subprocess.py:93} INFO - - models.mplus_dbt.example
+[2025-12-08T09:23:32.723+0700] {subprocess.py:93} INFO - [0m02:23:30  Found 2 models, 0 sources, 0 exposures, 0 metrics, 401 macros, 0 groups, 0 semantic models
+[2025-12-08T09:23:32.724+0700] {subprocess.py:93} INFO - [0m02:23:30
+[2025-12-08T09:23:32.725+0700] {subprocess.py:93} INFO - [0m02:23:30  Concurrency: 1 threads (target='ref_prod')
+[2025-12-08T09:23:32.726+0700] {subprocess.py:93} INFO - [0m02:23:30
+[2025-12-08T09:23:32.726+0700] {subprocess.py:93} INFO - [0m02:23:30  1 of 1 START sql table model refine.ref_mplus_stt .............................. [RUN]
+[2025-12-08T09:23:32.727+0700] {subprocess.py:93} INFO - [0m02:23:30  1 of 1 OK created sql table model refine.ref_mplus_stt ......................... [[32mSELECT 525[0m in 0.31s]
+[2025-12-08T09:23:32.728+0700] {subprocess.py:93} INFO - [0m02:23:30
+[2025-12-08T09:23:32.729+0700] {subprocess.py:93} INFO - [0m02:23:31  Finished running 1 table model in 0 hours 0 minutes and 0.55 seconds (0.55s).
+[2025-12-08T09:23:32.729+0700] {subprocess.py:93} INFO - [0m02:23:31
+[2025-12-08T09:23:32.730+0700] {subprocess.py:93} INFO - [0m02:23:31  [32mCompleted successfully[0m
+[2025-12-08T09:23:32.731+0700] {subprocess.py:93} INFO - [0m02:23:31
+[2025-12-08T09:23:32.732+0700] {subprocess.py:93} INFO - [0m02:23:31  Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[2025-12-08T09:23:32.733+0700] {subprocess.py:93} INFO - 
+[2025-12-08T09:23:32.835+0700] {subprocess.py:97} INFO - Command exited with return code 0
+[2025-12-08T09:23:32.836+0700] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-12-08T09:23:32.882+0700] {taskinstance.py:1205} INFO - Marking task as SUCCESS. dag_id=drive_to_refine, task_id=ref_mplus_stt, execution_date=20251207T233254, start_date=20251208T022324, end_date=20251208T022332
+[2025-12-08T09:23:32.918+0700] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2025-12-08T09:23:32.943+0700] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-12-08T09:23:32.946+0700] {local_task_job_runner.py:222} INFO - ::endgroup::

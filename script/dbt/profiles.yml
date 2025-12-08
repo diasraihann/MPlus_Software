@@ -3,7 +3,7 @@ mplus_dbt:
   outputs:
     ref_prod:
       type: postgres
-      host: localhost
+      host: postgres
       user: admin
       password: admin
       port: 5432
@@ -11,7 +11,7 @@ mplus_dbt:
       schema: refine
     dmart_prod:
       type: postgres
-      host: localhost
+      host: postgres
       user: admin
       password: admin
       port: 5432

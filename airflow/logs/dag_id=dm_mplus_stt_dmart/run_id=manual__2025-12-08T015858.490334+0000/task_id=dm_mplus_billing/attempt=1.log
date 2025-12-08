@@ -1,0 +1,50 @@
+[2025-12-08T08:59:00.268+0700] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-12-08T08:59:00.305+0700] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dm_mplus_stt_dmart.dm_mplus_billing manual__2025-12-08T01:58:58.490334+00:00 [queued]>
+[2025-12-08T08:59:00.315+0700] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dm_mplus_stt_dmart.dm_mplus_billing manual__2025-12-08T01:58:58.490334+00:00 [queued]>
+[2025-12-08T08:59:00.316+0700] {taskinstance.py:2303} INFO - Starting attempt 1 of 1
+[2025-12-08T08:59:00.337+0700] {taskinstance.py:2327} INFO - Executing <Task(BashOperator): dm_mplus_billing> on 2025-12-08 01:58:58.490334+00:00
+[2025-12-08T08:59:00.345+0700] {warnings.py:110} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=83) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-12-08T08:59:00.346+0700] {standard_task_runner.py:63} INFO - Started process 84 to run task
+[2025-12-08T08:59:00.347+0700] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'dm_mplus_stt_dmart', 'dm_mplus_billing', 'manual__2025-12-08T01:58:58.490334+00:00', '--job-id', '56', '--raw', '--subdir', 'DAGS_FOLDER/dmart/dm_mplus_billing.py', '--cfg-path', '/tmp/tmpyzvdcnm4']
+[2025-12-08T08:59:00.351+0700] {standard_task_runner.py:91} INFO - Job 56: Subtask dm_mplus_billing
+[2025-12-08T08:59:00.470+0700] {task_command.py:426} INFO - Running <TaskInstance: dm_mplus_stt_dmart.dm_mplus_billing manual__2025-12-08T01:58:58.490334+00:00 [running]> on host 628ec8befefb
+[2025-12-08T08:59:00.641+0700] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='dm_mplus_stt_dmart' AIRFLOW_CTX_TASK_ID='dm_mplus_billing' AIRFLOW_CTX_EXECUTION_DATE='2025-12-08T01:58:58.490334+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-12-08T01:58:58.490334+00:00'
+[2025-12-08T08:59:00.642+0700] {taskinstance.py:430} INFO - ::endgroup::
+[2025-12-08T08:59:00.682+0700] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2025-12-08T08:59:00.684+0700] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'cd /script/dmart ; python dm_mplus_billing.py || exit 3']
+[2025-12-08T08:59:00.696+0700] {subprocess.py:86} INFO - Output:
+[2025-12-08T08:59:02.079+0700] {subprocess.py:93} INFO - 2025-12-08 08:59:02,079 - INFO - Running DBT: dbt run --select tag:dm_mplus_billing --target ref_prod --project-dir /script/dbt --profiles-dir /script/dbt
+[2025-12-08T08:59:09.607+0700] {subprocess.py:93} INFO - 2025-12-08 08:59:09,602 - INFO - DBT run completed successfully.
+[2025-12-08T08:59:09.702+0700] {subprocess.py:93} INFO - 2025-12-08 08:59:09,702 - INFO - Mengambil data dari refine.dm_mplus_billing ...
+[2025-12-08T08:59:09.716+0700] {subprocess.py:93} INFO - /script/dmart/dm_mplus_billing.py:122: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+[2025-12-08T08:59:09.717+0700] {subprocess.py:93} INFO -   df = pd.read_sql(query, raw_conn)
+[2025-12-08T08:59:09.721+0700] {subprocess.py:93} INFO - 2025-12-08 08:59:09,721 - INFO - Jumlah baris di refine: 100
+[2025-12-08T08:59:09.722+0700] {subprocess.py:93} INFO - 2025-12-08 08:59:09,722 - INFO - Menulis data ke dmart.dm_mplus_billing menggunakan Psycopg2 COPY...
+[2025-12-08T08:59:09.770+0700] {subprocess.py:93} INFO - 2025-12-08 08:59:09,770 - INFO - Berhasil upload 100 rows ke dmart.dm_mplus_billing
+[2025-12-08T08:59:09.801+0700] {subprocess.py:93} INFO - 2025-12-08 08:59:09,801 - INFO - Tabel 'refine.dm_mplus_billing' (Refine) berhasil dihapus
+[2025-12-08T08:59:09.803+0700] {subprocess.py:93} INFO - [0m01:59:06  Running with dbt=1.7.0
+[2025-12-08T08:59:09.804+0700] {subprocess.py:93} INFO - [0m01:59:06  Registered adapter: postgres=1.7.0
+[2025-12-08T08:59:09.806+0700] {subprocess.py:93} INFO - [0m01:59:06  [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+[2025-12-08T08:59:09.807+0700] {subprocess.py:93} INFO - There are 1 unused configuration paths:
+[2025-12-08T08:59:09.808+0700] {subprocess.py:93} INFO - - models.mplus_dbt.example
+[2025-12-08T08:59:09.809+0700] {subprocess.py:93} INFO - [0m01:59:07  Found 2 models, 0 sources, 0 exposures, 0 metrics, 401 macros, 0 groups, 0 semantic models
+[2025-12-08T08:59:09.810+0700] {subprocess.py:93} INFO - [0m01:59:07
+[2025-12-08T08:59:09.811+0700] {subprocess.py:93} INFO - [0m01:59:07  Concurrency: 1 threads (target='ref_prod')
+[2025-12-08T08:59:09.813+0700] {subprocess.py:93} INFO - [0m01:59:07
+[2025-12-08T08:59:09.815+0700] {subprocess.py:93} INFO - [0m01:59:07  1 of 1 START sql table model refine.dm_mplus_billing ........................... [RUN]
+[2025-12-08T08:59:09.817+0700] {subprocess.py:93} INFO - [0m01:59:07  1 of 1 OK created sql table model refine.dm_mplus_billing ...................... [[32mSELECT 100[0m in 0.34s]
+[2025-12-08T08:59:09.819+0700] {subprocess.py:93} INFO - [0m01:59:07
+[2025-12-08T08:59:09.820+0700] {subprocess.py:93} INFO - [0m01:59:07  Finished running 1 table model in 0 hours 0 minutes and 0.61 seconds (0.61s).
+[2025-12-08T08:59:09.821+0700] {subprocess.py:93} INFO - [0m01:59:07
+[2025-12-08T08:59:09.823+0700] {subprocess.py:93} INFO - [0m01:59:07  [32mCompleted successfully[0m
+[2025-12-08T08:59:09.824+0700] {subprocess.py:93} INFO - [0m01:59:07
+[2025-12-08T08:59:09.825+0700] {subprocess.py:93} INFO - [0m01:59:07  Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[2025-12-08T08:59:09.826+0700] {subprocess.py:93} INFO - 
+[2025-12-08T08:59:10.038+0700] {subprocess.py:97} INFO - Command exited with return code 0
+[2025-12-08T08:59:10.040+0700] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-12-08T08:59:10.118+0700] {taskinstance.py:1205} INFO - Marking task as SUCCESS. dag_id=dm_mplus_stt_dmart, task_id=dm_mplus_billing, execution_date=20251208T015858, start_date=20251208T015900, end_date=20251208T015910
+[2025-12-08T08:59:10.185+0700] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2025-12-08T08:59:10.225+0700] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-12-08T08:59:10.228+0700] {local_task_job_runner.py:222} INFO - ::endgroup::

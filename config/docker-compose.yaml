@@ -1,5 +1,8 @@
 x-airflow-common: &airflow-common
-  image: ${AIRFLOW_IMAGE_NAME:-apache/airflow:2.9.0}
+  build:
+    context: .
+    dockerfile: Dockerfile
+  
   environment: &airflow-common-env
     AIRFLOW_UID: 50000
     AIRFLOW__CORE__EXECUTOR: CeleryExecutor
@@ -11,12 +14,20 @@ x-airflow-common: &airflow-common
     AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
     AIRFLOW__API__AUTH_BACKENDS: 'airflow.api.auth.backend.basic_auth,airflow.api.auth.backend.session'
     AIRFLOW__SCHEDULER__ENABLE_HEALTH_CHECK: 'true'
-    _PIP_ADDITIONAL_REQUIREMENTS: ${_PIP_ADDITIONAL_REQUIREMENTS:-}
+    APP_ENV: container
+
+    # === TIMEZONE FIX ===
+    AIRFLOW__CORE__DEFAULT_TIMEZONE: Asia/Jakarta
+    TZ: Asia/Jakarta
+
   volumes:
-    - ${AIRFLOW_PROJ_DIR:-.}/dags:/opt/airflow/dags
-    - ${AIRFLOW_PROJ_DIR:-.}/logs:/opt/airflow/logs
-    - ${AIRFLOW_PROJ_DIR:-.}/config:/opt/airflow/config
-    - ${AIRFLOW_PROJ_DIR:-.}/plugins:/opt/airflow/plugins
+    - ../airflow/dags:/opt/airflow/dags
+    - ../airflow/logs:/opt/airflow/logs
+    - ../airflow/config:/opt/airflow/config
+    - ../airflow/plugins:/opt/airflow/plugins
+    - ../script:/script
+    - ../staging:/staging
+  
   user: "${AIRFLOW_UID:-50000}:0"
   depends_on: &airflow-common-depends-on
     redis:
@@ -24,10 +35,8 @@ x-airflow-common: &airflow-common
     postgres:
       condition: service_healthy
 
+
 services:
-  # ============================================================================
-  # PostgreSQL Database
-  # ============================================================================
   postgres:
     image: postgres:15
     container_name: postgres_dwh
@@ -46,9 +55,7 @@ services:
       start_period: 5s
     restart: always
 
-  # ============================================================================
-  # Redis (Message Broker)
-  # ============================================================================
+
   redis:
     image: redis:latest
     expose:
@@ -61,9 +68,7 @@ services:
       start_period: 30s
     restart: always
 
-  # ============================================================================
-  # Airflow Initialization
-  # ============================================================================
+
   airflow-init:
     <<: *airflow-common
     entrypoint: /bin/bash
@@ -81,21 +86,27 @@ services:
           --email admin@example.com
     environment:
       <<: *airflow-common-env
+      AIRFLOW__CORE__DEFAULT_TIMEZONE: Asia/Jakarta
+      TZ: Asia/Jakarta
+
       _AIRFLOW_DB_MIGRATE: 'true'
       _AIRFLOW_WWW_USER_CREATE: 'true'
       _AIRFLOW_WWW_USER_USERNAME: ${_AIRFLOW_WWW_USER_USERNAME:-airflow}
       _AIRFLOW_WWW_USER_PASSWORD: ${_AIRFLOW_WWW_USER_PASSWORD:-airflow}
-      _PIP_ADDITIONAL_REQUIREMENTS: ''
+      _PIP_ADDITIONAL_REQUIREMENTS: '' 
     user: "0:0"
     volumes:
       - ${AIRFLOW_PROJ_DIR:-.}:/sources
 
-  # ============================================================================
-  # Airflow Webserver
-  # ============================================================================
+
   airflow-webserver:
     <<: *airflow-common
     command: webserver
+    environment:
+      <<: *airflow-common-env
+      AIRFLOW__CORE__DEFAULT_TIMEZONE: Asia/Jakarta
+      TZ: Asia/Jakarta
+
     ports:
       - "8080:8080"
     healthcheck:
@@ -110,12 +121,14 @@ services:
       airflow-init:
         condition: service_completed_successfully
 
-  # ============================================================================
-  # Airflow Scheduler
-  # ============================================================================
+
   airflow-scheduler:
     <<: *airflow-common
     command: scheduler
+    environment:
+      <<: *airflow-common-env
+      AIRFLOW__CORE__DEFAULT_TIMEZONE: Asia/Jakarta
+      TZ: Asia/Jakarta
     healthcheck:
       test: ["CMD", "curl", "--fail", "http://localhost:8974/health"]
       interval: 30s
@@ -128,12 +141,15 @@ services:
       airflow-init:
         condition: service_completed_successfully
 
-  # ============================================================================
-  # Airflow Worker (Celery)
-  # ============================================================================
+
   airflow-worker:
     <<: *airflow-common
     command: celery worker
+    environment:
+      <<: *airflow-common-env
+      AIRFLOW__CORE__DEFAULT_TIMEZONE: Asia/Jakarta
+      TZ: Asia/Jakarta
+      DUMB_INIT_SETSID: "0"
     healthcheck:
       test:
         - "CMD-SHELL"
@@ -142,21 +158,20 @@ services:
       timeout: 10s
       retries: 5
       start_period: 30s
-    environment:
-      <<: *airflow-common-env
-      DUMB_INIT_SETSID: "0"
     restart: always
     depends_on:
       <<: *airflow-common-depends-on
       airflow-init:
         condition: service_completed_successfully
 
-  # ============================================================================
-  # Airflow Triggerer
-  # ============================================================================
+
   airflow-triggerer:
     <<: *airflow-common
     command: triggerer
+    environment:
+      <<: *airflow-common-env
+      AIRFLOW__CORE__DEFAULT_TIMEZONE: Asia/Jakarta
+      TZ: Asia/Jakarta
     healthcheck:
       test: ["CMD-SHELL", 'airflow jobs check --job-type TriggererJob --hostname "$${HOSTNAME}"']
       interval: 30s
@@ -169,29 +184,31 @@ services:
       airflow-init:
         condition: service_completed_successfully
 
-  # ============================================================================
-  # Airflow CLI (Debug Profile)
-  # ============================================================================
+
   airflow-cli:
     <<: *airflow-common
     profiles:
       - debug
     environment:
       <<: *airflow-common-env
+      AIRFLOW__CORE__DEFAULT_TIMEZONE: Asia/Jakarta
+      TZ: Asia/Jakarta
       CONNECTION_CHECK_MAX_COUNT: "0"
     command:
       - bash
       - -c
       - airflow
 
-  # ============================================================================
-  # Airflow Flower (Monitoring - Optional)
-  # ============================================================================
+
   flower:
     <<: *airflow-common
     command: celery flower
     profiles:
       - flower
+    environment:
+      <<: *airflow-common-env
+      AIRFLOW__CORE__DEFAULT_TIMEZONE: Asia/Jakarta
+      TZ: Asia/Jakarta
     ports:
       - "5555:5555"
     healthcheck:
@@ -206,11 +223,6 @@ services:
       airflow-init:
         condition: service_completed_successfully
 
-# ==============================================================================
-# Docker Volumes
-# ==============================================================================
+
 volumes:
   postgres-db-volume:
-  airflow_dags:
-  airflow_logs:
-  airflow_plugins:

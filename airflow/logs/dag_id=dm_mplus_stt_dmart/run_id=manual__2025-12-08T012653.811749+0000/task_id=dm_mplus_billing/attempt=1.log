@@ -1,0 +1,126 @@
+[2025-12-08T01:26:55.331+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-12-08T01:26:55.368+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dm_mplus_stt_dmart.dm_mplus_billing manual__2025-12-08T01:26:53.811749+00:00 [queued]>
+[2025-12-08T01:26:55.380+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dm_mplus_stt_dmart.dm_mplus_billing manual__2025-12-08T01:26:53.811749+00:00 [queued]>
+[2025-12-08T01:26:55.381+0000] {taskinstance.py:2303} INFO - Starting attempt 1 of 1
+[2025-12-08T01:26:55.397+0000] {taskinstance.py:2327} INFO - Executing <Task(BashOperator): dm_mplus_billing> on 2025-12-08 01:26:53.811749+00:00
+[2025-12-08T01:26:55.403+0000] {warnings.py:110} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=495) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-12-08T01:26:55.404+0000] {standard_task_runner.py:63} INFO - Started process 496 to run task
+[2025-12-08T01:26:55.405+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'dm_mplus_stt_dmart', 'dm_mplus_billing', 'manual__2025-12-08T01:26:53.811749+00:00', '--job-id', '44', '--raw', '--subdir', 'DAGS_FOLDER/dmart/dm_mplus_billing.py', '--cfg-path', '/tmp/tmphug06o9w']
+[2025-12-08T01:26:55.407+0000] {standard_task_runner.py:91} INFO - Job 44: Subtask dm_mplus_billing
+[2025-12-08T01:26:55.491+0000] {task_command.py:426} INFO - Running <TaskInstance: dm_mplus_stt_dmart.dm_mplus_billing manual__2025-12-08T01:26:53.811749+00:00 [running]> on host a1c568a6392d
+[2025-12-08T01:26:55.605+0000] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='dm_mplus_stt_dmart' AIRFLOW_CTX_TASK_ID='dm_mplus_billing' AIRFLOW_CTX_EXECUTION_DATE='2025-12-08T01:26:53.811749+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-12-08T01:26:53.811749+00:00'
+[2025-12-08T01:26:55.607+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-12-08T01:26:55.619+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2025-12-08T01:26:55.621+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'cd /script/dmart ; python dm_mplus_billing.py || exit 3']
+[2025-12-08T01:26:55.631+0000] {subprocess.py:86} INFO - Output:
+[2025-12-08T01:26:56.725+0000] {subprocess.py:93} INFO - 2025-12-08 01:26:56,725 - INFO - Running DBT: dbt run --select tag:dm_mplus_billing --target ref_prod --project-dir /script/dbt --profiles-dir /script/dbt
+[2025-12-08T01:27:02.660+0000] {subprocess.py:93} INFO - 2025-12-08 01:27:02,659 - INFO - DBT run completed successfully.
+[2025-12-08T01:27:02.710+0000] {subprocess.py:93} INFO - 2025-12-08 01:27:02,710 - INFO - Mengambil data dari refine.dm_mplus_billing ...
+[2025-12-08T01:27:02.720+0000] {subprocess.py:93} INFO - /script/dmart/dm_mplus_billing.py:60: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+[2025-12-08T01:27:02.721+0000] {subprocess.py:93} INFO -   df = pd.read_sql(query, raw_conn)
+[2025-12-08T01:27:02.723+0000] {subprocess.py:93} INFO - 2025-12-08 01:27:02,723 - INFO - Jumlah baris di refine: 100
+[2025-12-08T01:27:02.724+0000] {subprocess.py:93} INFO - 2025-12-08 01:27:02,723 - INFO - Menulis data ke dmart.dm_mplus_billing ...
+[2025-12-08T01:27:02.725+0000] {subprocess.py:93} INFO - /script/dmart/dm_mplus_billing.py:66: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+[2025-12-08T01:27:02.725+0000] {subprocess.py:93} INFO -   df.to_sql(
+[2025-12-08T01:27:02.730+0000] {subprocess.py:93} INFO - 2025-12-08 01:27:02,725 - ERROR - Script execution failed: 'Engine' object has no attribute 'cursor'
+[2025-12-08T01:27:02.730+0000] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2025-12-08T01:27:02.731+0000] {subprocess.py:93} INFO -   File "/script/dmart/dm_mplus_billing.py", line 90, in main
+[2025-12-08T01:27:02.731+0000] {subprocess.py:93} INFO -     copy_refine_to_dmart()
+[2025-12-08T01:27:02.732+0000] {subprocess.py:93} INFO -   File "/script/dmart/dm_mplus_billing.py", line 66, in copy_refine_to_dmart
+[2025-12-08T01:27:02.732+0000] {subprocess.py:93} INFO -     df.to_sql(
+[2025-12-08T01:27:02.733+0000] {subprocess.py:93} INFO -   File "/home/airflow/.local/lib/python3.12/site-packages/pandas/util/_decorators.py", line 333, in wrapper
+[2025-12-08T01:27:02.734+0000] {subprocess.py:93} INFO -     return func(*args, **kwargs)
+[2025-12-08T01:27:02.734+0000] {subprocess.py:93} INFO -            ^^^^^^^^^^^^^^^^^^^^^
+[2025-12-08T01:27:02.735+0000] {subprocess.py:93} INFO -   File "/home/airflow/.local/lib/python3.12/site-packages/pandas/core/generic.py", line 3087, in to_sql
+[2025-12-08T01:27:02.735+0000] {subprocess.py:93} INFO -     return sql.to_sql(
+[2025-12-08T01:27:02.736+0000] {subprocess.py:93} INFO -            ^^^^^^^^^^^
+[2025-12-08T01:27:02.736+0000] {subprocess.py:93} INFO -   File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/sql.py", line 842, in to_sql
+[2025-12-08T01:27:02.737+0000] {subprocess.py:93} INFO -     return pandas_sql.to_sql(
+[2025-12-08T01:27:02.737+0000] {subprocess.py:93} INFO -            ^^^^^^^^^^^^^^^^^^
+[2025-12-08T01:27:02.737+0000] {subprocess.py:93} INFO -   File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/sql.py", line 2850, in to_sql
+[2025-12-08T01:27:02.738+0000] {subprocess.py:93} INFO -     table.create()
+[2025-12-08T01:27:02.738+0000] {subprocess.py:93} INFO -   File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/sql.py", line 984, in create
+[2025-12-08T01:27:02.738+0000] {subprocess.py:93} INFO -     if self.exists():
+[2025-12-08T01:27:02.739+0000] {subprocess.py:93} INFO -        ^^^^^^^^^^^^^
+[2025-12-08T01:27:02.739+0000] {subprocess.py:93} INFO -   File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/sql.py", line 970, in exists
+[2025-12-08T01:27:02.739+0000] {subprocess.py:93} INFO -     return self.pd_sql.has_table(self.name, self.schema)
+[2025-12-08T01:27:02.740+0000] {subprocess.py:93} INFO -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-12-08T01:27:02.740+0000] {subprocess.py:93} INFO -   File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/sql.py", line 2865, in has_table
+[2025-12-08T01:27:02.740+0000] {subprocess.py:93} INFO -     return len(self.execute(query, [name]).fetchall()) > 0
+[2025-12-08T01:27:02.741+0000] {subprocess.py:93} INFO -                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-12-08T01:27:02.741+0000] {subprocess.py:93} INFO -   File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/sql.py", line 2672, in execute
+[2025-12-08T01:27:02.742+0000] {subprocess.py:93} INFO -     cur = self.con.cursor()
+[2025-12-08T01:27:02.742+0000] {subprocess.py:93} INFO -           ^^^^^^^^^^^^^^^
+[2025-12-08T01:27:02.743+0000] {subprocess.py:93} INFO - AttributeError: 'Engine' object has no attribute 'cursor'
+[2025-12-08T01:27:02.743+0000] {subprocess.py:93} INFO - [0m01:26:59  Running with dbt=1.7.0
+[2025-12-08T01:27:02.743+0000] {subprocess.py:93} INFO - [0m01:27:00  Registered adapter: postgres=1.7.0
+[2025-12-08T01:27:02.744+0000] {subprocess.py:93} INFO - [0m01:27:00  [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+[2025-12-08T01:27:02.744+0000] {subprocess.py:93} INFO - There are 1 unused configuration paths:
+[2025-12-08T01:27:02.745+0000] {subprocess.py:93} INFO - - models.mplus_dbt.example
+[2025-12-08T01:27:02.745+0000] {subprocess.py:93} INFO - [0m01:27:00  Found 2 models, 0 sources, 0 exposures, 0 metrics, 401 macros, 0 groups, 0 semantic models
+[2025-12-08T01:27:02.746+0000] {subprocess.py:93} INFO - [0m01:27:00
+[2025-12-08T01:27:02.746+0000] {subprocess.py:93} INFO - [0m01:27:00  Concurrency: 1 threads (target='ref_prod')
+[2025-12-08T01:27:02.747+0000] {subprocess.py:93} INFO - [0m01:27:00
+[2025-12-08T01:27:02.747+0000] {subprocess.py:93} INFO - [0m01:27:00  1 of 1 START sql table model refine.dm_mplus_billing ........................... [RUN]
+[2025-12-08T01:27:02.747+0000] {subprocess.py:93} INFO - [0m01:27:01  1 of 1 OK created sql table model refine.dm_mplus_billing ...................... [[32mSELECT 100[0m in 0.22s]
+[2025-12-08T01:27:02.748+0000] {subprocess.py:93} INFO - [0m01:27:01
+[2025-12-08T01:27:02.748+0000] {subprocess.py:93} INFO - [0m01:27:01  Finished running 1 table model in 0 hours 0 minutes and 0.43 seconds (0.43s).
+[2025-12-08T01:27:02.748+0000] {subprocess.py:93} INFO - [0m01:27:01
+[2025-12-08T01:27:02.749+0000] {subprocess.py:93} INFO - [0m01:27:01  [32mCompleted successfully[0m
+[2025-12-08T01:27:02.749+0000] {subprocess.py:93} INFO - [0m01:27:01
+[2025-12-08T01:27:02.749+0000] {subprocess.py:93} INFO - [0m01:27:01  Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[2025-12-08T01:27:02.750+0000] {subprocess.py:93} INFO - 
+[2025-12-08T01:27:02.751+0000] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2025-12-08T01:27:02.751+0000] {subprocess.py:93} INFO -   File "/script/dmart/dm_mplus_billing.py", line 99, in <module>
+[2025-12-08T01:27:02.751+0000] {subprocess.py:93} INFO -     main()
+[2025-12-08T01:27:02.752+0000] {subprocess.py:93} INFO -   File "/script/dmart/dm_mplus_billing.py", line 90, in main
+[2025-12-08T01:27:02.752+0000] {subprocess.py:93} INFO -     copy_refine_to_dmart()
+[2025-12-08T01:27:02.753+0000] {subprocess.py:93} INFO -   File "/script/dmart/dm_mplus_billing.py", line 66, in copy_refine_to_dmart
+[2025-12-08T01:27:02.753+0000] {subprocess.py:93} INFO -     df.to_sql(
+[2025-12-08T01:27:02.753+0000] {subprocess.py:93} INFO -   File "/home/airflow/.local/lib/python3.12/site-packages/pandas/util/_decorators.py", line 333, in wrapper
+[2025-12-08T01:27:02.754+0000] {subprocess.py:93} INFO -     return func(*args, **kwargs)
+[2025-12-08T01:27:02.754+0000] {subprocess.py:93} INFO -            ^^^^^^^^^^^^^^^^^^^^^
+[2025-12-08T01:27:02.754+0000] {subprocess.py:93} INFO -   File "/home/airflow/.local/lib/python3.12/site-packages/pandas/core/generic.py", line 3087, in to_sql
+[2025-12-08T01:27:02.755+0000] {subprocess.py:93} INFO -     return sql.to_sql(
+[2025-12-08T01:27:02.755+0000] {subprocess.py:93} INFO -            ^^^^^^^^^^^
+[2025-12-08T01:27:02.755+0000] {subprocess.py:93} INFO -   File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/sql.py", line 842, in to_sql
+[2025-12-08T01:27:02.756+0000] {subprocess.py:93} INFO -     return pandas_sql.to_sql(
+[2025-12-08T01:27:02.756+0000] {subprocess.py:93} INFO -            ^^^^^^^^^^^^^^^^^^
+[2025-12-08T01:27:02.756+0000] {subprocess.py:93} INFO -   File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/sql.py", line 2850, in to_sql
+[2025-12-08T01:27:02.757+0000] {subprocess.py:93} INFO -     table.create()
+[2025-12-08T01:27:02.757+0000] {subprocess.py:93} INFO -   File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/sql.py", line 984, in create
+[2025-12-08T01:27:02.757+0000] {subprocess.py:93} INFO -     if self.exists():
+[2025-12-08T01:27:02.757+0000] {subprocess.py:93} INFO -        ^^^^^^^^^^^^^
+[2025-12-08T01:27:02.758+0000] {subprocess.py:93} INFO -   File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/sql.py", line 970, in exists
+[2025-12-08T01:27:02.758+0000] {subprocess.py:93} INFO -     return self.pd_sql.has_table(self.name, self.schema)
+[2025-12-08T01:27:02.758+0000] {subprocess.py:93} INFO -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-12-08T01:27:02.759+0000] {subprocess.py:93} INFO -   File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/sql.py", line 2865, in has_table
+[2025-12-08T01:27:02.759+0000] {subprocess.py:93} INFO -     return len(self.execute(query, [name]).fetchall()) > 0
+[2025-12-08T01:27:02.759+0000] {subprocess.py:93} INFO -                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-12-08T01:27:02.760+0000] {subprocess.py:93} INFO -   File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/sql.py", line 2672, in execute
+[2025-12-08T01:27:02.760+0000] {subprocess.py:93} INFO -     cur = self.con.cursor()
+[2025-12-08T01:27:02.760+0000] {subprocess.py:93} INFO -           ^^^^^^^^^^^^^^^
+[2025-12-08T01:27:02.761+0000] {subprocess.py:93} INFO - AttributeError: 'Engine' object has no attribute 'cursor'
+[2025-12-08T01:27:02.839+0000] {subprocess.py:97} INFO - Command exited with return code 3
+[2025-12-08T01:27:02.840+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-12-08T01:27:02.861+0000] {taskinstance.py:2890} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/bash.py", line 243, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 3.
+[2025-12-08T01:27:02.866+0000] {taskinstance.py:1205} INFO - Marking task as FAILED. dag_id=dm_mplus_stt_dmart, task_id=dm_mplus_billing, execution_date=20251208T012653, start_date=20251208T012655, end_date=20251208T012702
+[2025-12-08T01:27:02.884+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 44 for task dm_mplus_billing (Bash command failed. The command returned a non-zero exit code 3.; 496)
+[2025-12-08T01:27:02.931+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2025-12-08T01:27:02.954+0000] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-12-08T01:27:02.958+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

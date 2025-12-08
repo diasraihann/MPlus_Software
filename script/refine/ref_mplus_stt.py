@@ -11,7 +11,7 @@ table = "mplus_stt"
 source_schema = "staging"
 target_schema = "refine"
 dbt_target = "ref_prod"
-db_url = "postgresql+psycopg2://admin:admin@localhost:5432/dwh"
+db_url = "postgresql+psycopg2://admin:admin@postgres:5432/dwh"
 
 staging_file = Path(__file__).resolve().parents[2] / f"{source_schema}" / f"{table}.parquet"
 project_path = Path(__file__).resolve().parents[1] / "dbt"
@@ -22,7 +22,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 
 def copy_dataframe_to_postgres(df, table_name, schema_name):
     conn = psycopg2.connect(
-        host="localhost",
+        host="postgres",
         port=5432,
         database="dwh",
         user="admin",

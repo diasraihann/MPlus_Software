@@ -2,8 +2,6 @@ import pendulum
 from datetime import timedelta
 from airflow import DAG
 from airflow.operators.bash import BashOperator
-from airflow.sensors.python import PythonSensor
-from sensors.check_rerun_sensor import check_latest_task_success  # custom sensor
 
 local_tz = pendulum.timezone("Asia/Jakarta")
 
@@ -17,7 +15,7 @@ default_args = {
 }
 
 dag = DAG(
-    dag_id="dm_mplus_stt_dmart",
+    dag_id="dm_mplus_billing_dmart",
     default_args=default_args,
     start_date=pendulum.datetime(2025, 12, 1, tz="Asia/Jakarta"),
     schedule_interval=None,
@@ -26,7 +24,7 @@ dag = DAG(
     tags=["mplus", "refine", "dmart"],
 )
 
-# Task : Running dmart\
+# Task : Running dmart
 dm_mplus_billing = BashOperator(
     task_id="dm_mplus_billing",
     bash_command=(
@@ -35,19 +33,3 @@ dm_mplus_billing = BashOperator(
     ),
     dag=dag,
 )
-
-# Sonsor dependency
-ref_mplus_stt = PythonSensor(
-    task_id="ref_mplus_stt",
-    python_callable=lambda **kwargs: check_latest_task_success(
-        dag_id="drive_to_refine",       
-        task_id="ref_mplus_stt"           
-    ),
-    timeout=900,
-    poke_interval=30,
-    mode="reschedule",
-    dag=dag,
-)
-
-# Dependency
-ref_mplus_stt >> dm_mplus_billing
