@@ -4240,3 +4240,2204 @@ File Path                                              PID    Runtime      # DAG
 /opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.26s           2025-12-08T02:51:31
 /opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.20s           2025-12-08T02:51:25
 ================================================================================
+[2025-12-08T09:52:13.400+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.32s           2025-12-08T02:52:02
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.20s           2025-12-08T02:51:56
+================================================================================
+[2025-12-08T09:52:43.799+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.14s           2025-12-08T02:52:26
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T02:52:32
+================================================================================
+[2025-12-08T09:53:09.257+0700] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-12-08T09:53:09.314+0700] {manager.py:740} INFO - There are 2 files in /opt/airflow/dags
+[2025-12-08T09:53:14.199+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.14s           2025-12-08T02:53:03
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.13s           2025-12-08T02:52:57
+================================================================================
+[2025-12-08T09:53:44.464+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.14s           2025-12-08T02:53:33
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.13s           2025-12-08T02:53:27
+================================================================================
+[2025-12-08T09:54:14.857+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.14s           2025-12-08T02:54:03
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.13s           2025-12-08T02:53:57
+================================================================================
+[2025-12-08T09:54:45.292+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.14s           2025-12-08T02:54:34
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.14s           2025-12-08T02:54:28
+================================================================================
+[2025-12-08T09:55:15.679+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.15s           2025-12-08T02:55:04
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.13s           2025-12-08T02:54:58
+================================================================================
+[2025-12-08T09:55:46.008+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  1.25s           2025-12-08T02:55:36
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  1.14s           2025-12-08T02:55:30
+================================================================================
+[2025-12-08T09:56:16.793+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.30s           2025-12-08T02:56:07
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.14s           2025-12-08T02:56:00
+================================================================================
+[2025-12-08T09:56:47.053+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.15s           2025-12-08T02:56:31
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T02:56:38
+================================================================================
+[2025-12-08T09:57:17.448+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.15s           2025-12-08T02:57:08
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.14s           2025-12-08T02:57:01
+================================================================================
+[2025-12-08T09:57:47.857+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.14s           2025-12-08T02:57:38
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.13s           2025-12-08T02:57:31
+================================================================================
+[2025-12-08T09:58:10.172+0700] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-12-08T09:58:10.228+0700] {manager.py:740} INFO - There are 2 files in /opt/airflow/dags
+[2025-12-08T09:58:18.316+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.14s           2025-12-08T02:58:09
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.12s           2025-12-08T02:58:02
+================================================================================
+[2025-12-08T09:58:48.609+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.24s           2025-12-08T02:58:32
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.14s           2025-12-08T02:58:39
+================================================================================
+[2025-12-08T09:59:19.011+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.14s           2025-12-08T02:59:02
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T02:59:10
+================================================================================
+[2025-12-08T09:59:49.398+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.13s           2025-12-08T02:59:33
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T02:59:40
+================================================================================
+[2025-12-08T10:00:19.774+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.15s           2025-12-08T03:00:10
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.14s           2025-12-08T03:00:03
+================================================================================
+[2025-12-08T10:00:50.171+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.19s           2025-12-08T03:00:41
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.13s           2025-12-08T03:00:34
+================================================================================
+[2025-12-08T10:01:20.438+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.15s           2025-12-08T03:01:04
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T03:01:11
+================================================================================
+[2025-12-08T10:01:50.823+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.13s           2025-12-08T03:01:34
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.12s           2025-12-08T03:01:41
+================================================================================
+[2025-12-08T10:02:21.329+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.20s           2025-12-08T03:02:05
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.19s           2025-12-08T03:02:12
+================================================================================
+[2025-12-08T10:02:51.817+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.33s           2025-12-08T03:02:42
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.16s           2025-12-08T03:02:35
+================================================================================
+[2025-12-08T10:03:10.992+0700] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-12-08T10:03:11.047+0700] {manager.py:740} INFO - There are 2 files in /opt/airflow/dags
+[2025-12-08T10:03:22.239+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.14s           2025-12-08T03:03:13
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.14s           2025-12-08T03:03:06
+================================================================================
+[2025-12-08T10:03:52.624+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.13s           2025-12-08T03:03:36
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T03:03:43
+================================================================================
+[2025-12-08T10:04:23.004+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T03:04:13
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.12s           2025-12-08T03:04:06
+================================================================================
+[2025-12-08T10:04:53.389+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.13s           2025-12-08T03:04:37
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.12s           2025-12-08T03:04:44
+================================================================================
+[2025-12-08T10:05:23.768+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.13s           2025-12-08T03:05:07
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T03:05:14
+================================================================================
+[2025-12-08T10:05:54.160+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T03:05:45
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.13s           2025-12-08T03:05:38
+================================================================================
+[2025-12-08T10:06:24.530+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.14s           2025-12-08T03:06:15
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.13s           2025-12-08T03:06:08
+================================================================================
+[2025-12-08T10:06:54.841+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.19s           2025-12-08T03:06:38
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T03:06:45
+================================================================================
+[2025-12-08T10:07:25.230+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.14s           2025-12-08T03:07:16
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.13s           2025-12-08T03:07:09
+================================================================================
+[2025-12-08T10:07:55.638+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.15s           2025-12-08T03:07:39
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.14s           2025-12-08T03:07:46
+================================================================================
+[2025-12-08T10:08:11.839+0700] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-12-08T10:08:11.899+0700] {manager.py:740} INFO - There are 2 files in /opt/airflow/dags
+[2025-12-08T10:08:26.099+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.21s           2025-12-08T03:08:17
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.16s           2025-12-08T03:08:09
+================================================================================
+[2025-12-08T10:08:56.542+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.14s           2025-12-08T03:08:47
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.13s           2025-12-08T03:08:40
+================================================================================
+[2025-12-08T10:09:27.022+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.21s           2025-12-08T03:09:10
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.19s           2025-12-08T03:09:18
+================================================================================
+[2025-12-08T10:09:57.412+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.14s           2025-12-08T03:09:48
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.13s           2025-12-08T03:09:41
+================================================================================
+[2025-12-08T10:10:27.794+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.13s           2025-12-08T03:10:11
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T03:10:18
+================================================================================
+[2025-12-08T10:10:58.168+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.13s           2025-12-08T03:10:42
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T03:10:49
+================================================================================
+[2025-12-08T10:11:28.559+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.13s           2025-12-08T03:11:12
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T03:11:19
+================================================================================
+[2025-12-08T10:11:58.949+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T03:11:49
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.12s           2025-12-08T03:11:42
+================================================================================
+[2025-12-08T10:12:29.361+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.14s           2025-12-08T03:12:13
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T03:12:20
+================================================================================
+[2025-12-08T10:12:59.764+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T03:12:50
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.12s           2025-12-08T03:12:43
+================================================================================
+[2025-12-08T10:13:11.858+0700] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-12-08T10:13:11.915+0700] {manager.py:740} INFO - There are 2 files in /opt/airflow/dags
+[2025-12-08T10:13:30.226+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.13s           2025-12-08T03:13:14
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T03:13:21
+================================================================================
+[2025-12-08T10:14:00.647+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.14s           2025-12-08T03:13:51
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.14s           2025-12-08T03:13:44
+================================================================================
+[2025-12-08T10:14:31.053+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.22s           2025-12-08T03:14:22
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.15s           2025-12-08T03:14:14
+================================================================================
+[2025-12-08T10:15:01.386+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.24s           2025-12-08T03:14:45
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T03:14:52
+================================================================================
+[2025-12-08T10:15:31.945+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.29s           2025-12-08T03:15:23
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.21s           2025-12-08T03:15:15
+================================================================================
+[2025-12-08T10:16:02.419+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.25s           2025-12-08T03:15:53
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.16s           2025-12-08T03:15:46
+================================================================================
+[2025-12-08T10:16:32.823+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.17s           2025-12-08T03:16:23
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.14s           2025-12-08T03:16:16
+================================================================================
+[2025-12-08T10:17:03.240+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.17s           2025-12-08T03:16:54
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.15s           2025-12-08T03:16:47
+================================================================================
+[2025-12-08T10:17:33.639+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.13s           2025-12-08T03:17:17
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T03:17:24
+================================================================================
+[2025-12-08T10:18:04.044+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T03:17:54
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.13s           2025-12-08T03:17:47
+================================================================================
+[2025-12-08T10:18:12.108+0700] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-12-08T10:18:12.183+0700] {manager.py:740} INFO - There are 2 files in /opt/airflow/dags
+[2025-12-08T10:18:34.411+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.16s           2025-12-08T03:18:18
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T03:18:25
+================================================================================
+[2025-12-08T10:19:04.798+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T03:18:55
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.13s           2025-12-08T03:18:48
+================================================================================
+[2025-12-08T10:19:35.193+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.13s           2025-12-08T03:19:19
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T03:19:26
+================================================================================
+[2025-12-08T10:20:05.611+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.15s           2025-12-08T03:19:49
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T03:19:56
+================================================================================
+[2025-12-08T10:20:36.012+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.13s           2025-12-08T03:20:19
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.12s           2025-12-08T03:20:26
+================================================================================
+[2025-12-08T10:21:06.398+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.14s           2025-12-08T03:20:57
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.13s           2025-12-08T03:20:50
+================================================================================
+[2025-12-08T10:21:36.794+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.16s           2025-12-08T03:21:27
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.13s           2025-12-08T03:21:20
+================================================================================
+[2025-12-08T10:22:07.197+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T03:21:58
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.12s           2025-12-08T03:21:51
+================================================================================
+[2025-12-08T10:22:37.601+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.14s           2025-12-08T03:22:28
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.13s           2025-12-08T03:22:21
+================================================================================
+[2025-12-08T10:23:08.002+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T03:22:58
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.12s           2025-12-08T03:22:51
+================================================================================
+[2025-12-08T10:23:13.043+0700] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-12-08T10:23:13.099+0700] {manager.py:740} INFO - There are 2 files in /opt/airflow/dags
+[2025-12-08T10:23:38.469+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T03:23:29
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.12s           2025-12-08T03:23:22
+================================================================================
+[2025-12-08T10:24:08.868+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T03:23:59
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.12s           2025-12-08T03:23:52
+================================================================================
+[2025-12-08T10:24:39.275+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T03:24:30
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.13s           2025-12-08T03:24:23
+================================================================================
+[2025-12-08T10:25:09.675+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T03:25:00
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.12s           2025-12-08T03:24:53
+================================================================================
+[2025-12-08T10:25:40.107+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.15s           2025-12-08T03:25:23
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T03:25:31
+================================================================================
+[2025-12-08T10:26:10.525+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.14s           2025-12-08T03:25:54
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.12s           2025-12-08T03:26:01
+================================================================================
+[2025-12-08T10:26:40.921+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.14s           2025-12-08T03:26:31
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.12s           2025-12-08T03:26:24
+================================================================================
+[2025-12-08T10:27:11.306+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T03:27:02
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.13s           2025-12-08T03:26:55
+================================================================================
+[2025-12-08T10:27:41.729+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.14s           2025-12-08T03:27:25
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T03:27:32
+================================================================================
+[2025-12-08T10:28:12.158+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.15s           2025-12-08T03:27:56
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T03:28:03
+================================================================================
+[2025-12-08T10:28:13.163+0700] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-12-08T10:28:13.234+0700] {manager.py:740} INFO - There are 2 files in /opt/airflow/dags
+[2025-12-08T10:28:42.633+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.14s           2025-12-08T03:28:33
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.12s           2025-12-08T03:28:26
+================================================================================
+[2025-12-08T10:29:13.040+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.15s           2025-12-08T03:29:04
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.13s           2025-12-08T03:28:56
+================================================================================
+[2025-12-08T10:29:43.425+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T03:29:34
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.12s           2025-12-08T03:29:27
+================================================================================
+[2025-12-08T10:30:13.835+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T03:30:04
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.13s           2025-12-08T03:29:57
+================================================================================
+[2025-12-08T10:30:44.237+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.13s           2025-12-08T03:30:28
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T03:30:35
+================================================================================
+[2025-12-08T10:31:14.639+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T03:31:05
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.13s           2025-12-08T03:30:58
+================================================================================
+[2025-12-08T10:31:45.036+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T03:31:35
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.13s           2025-12-08T03:31:28
+================================================================================
+[2025-12-08T10:32:15.437+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T03:32:06
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.13s           2025-12-08T03:31:59
+================================================================================
+[2025-12-08T10:32:45.841+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.14s           2025-12-08T03:32:36
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.13s           2025-12-08T03:32:29
+================================================================================
+[2025-12-08T10:33:13.241+0700] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-12-08T10:33:13.300+0700] {manager.py:740} INFO - There are 2 files in /opt/airflow/dags
+[2025-12-08T10:33:16.327+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.14s           2025-12-08T03:33:00
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T03:33:07
+================================================================================
+[2025-12-08T10:33:46.737+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.13s           2025-12-08T03:33:30
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T03:33:37
+================================================================================
+[2025-12-08T10:34:17.149+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.14s           2025-12-08T03:34:01
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T03:34:08
+================================================================================
+[2025-12-08T10:34:47.542+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T03:34:38
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.12s           2025-12-08T03:34:31
+================================================================================
+[2025-12-08T10:35:17.939+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T03:35:08
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.12s           2025-12-08T03:35:01
+================================================================================
+[2025-12-08T10:35:48.352+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.14s           2025-12-08T03:35:32
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.12s           2025-12-08T03:35:39
+================================================================================
+[2025-12-08T10:36:18.649+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.17s           2025-12-08T03:36:02
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.15s           2025-12-08T03:36:09
+================================================================================
+[2025-12-08T10:36:49.062+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T03:36:39
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.12s           2025-12-08T03:36:32
+================================================================================
+[2025-12-08T10:37:19.470+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.15s           2025-12-08T03:37:10
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.12s           2025-12-08T03:37:03
+================================================================================
+[2025-12-08T10:37:49.860+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T03:37:40
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.12s           2025-12-08T03:37:33
+================================================================================
+[2025-12-08T10:38:14.210+0700] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-12-08T10:38:14.270+0700] {manager.py:740} INFO - There are 2 files in /opt/airflow/dags
+[2025-12-08T10:38:20.338+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T03:38:11
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.13s           2025-12-08T03:38:04
+================================================================================
+[2025-12-08T10:38:50.770+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.15s           2025-12-08T03:38:34
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.12s           2025-12-08T03:38:41
+================================================================================
+[2025-12-08T10:39:21.173+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T03:39:12
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.12s           2025-12-08T03:39:05
+================================================================================
+[2025-12-08T10:39:51.597+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T03:39:42
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.12s           2025-12-08T03:39:35
+================================================================================
+[2025-12-08T10:40:21.993+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T03:40:12
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.13s           2025-12-08T03:40:05
+================================================================================
+[2025-12-08T10:40:52.388+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T03:40:43
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.12s           2025-12-08T03:40:36
+================================================================================
+[2025-12-08T10:41:22.795+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.13s           2025-12-08T03:41:06
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.12s           2025-12-08T03:41:13
+================================================================================
+[2025-12-08T10:41:53.206+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.14s           2025-12-08T03:41:37
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T03:41:44
+================================================================================
+[2025-12-08T10:42:23.617+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.13s           2025-12-08T03:42:07
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T03:42:14
+================================================================================
+[2025-12-08T10:42:54.025+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.13s           2025-12-08T03:42:37
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.12s           2025-12-08T03:42:44
+================================================================================
+[2025-12-08T10:43:14.215+0700] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-12-08T10:43:14.276+0700] {manager.py:740} INFO - There are 2 files in /opt/airflow/dags
+[2025-12-08T10:43:24.413+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.17s           2025-12-08T03:43:15
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.12s           2025-12-08T03:43:08
+================================================================================
+[2025-12-08T10:43:54.816+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.15s           2025-12-08T03:43:45
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.14s           2025-12-08T03:43:38
+================================================================================
+[2025-12-08T10:44:25.206+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T03:44:16
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.13s           2025-12-08T03:44:09
+================================================================================
+[2025-12-08T10:44:55.616+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T03:44:46
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.13s           2025-12-08T03:44:39
+================================================================================
+[2025-12-08T10:45:26.030+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.15s           2025-12-08T03:45:16
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.13s           2025-12-08T03:45:09
+================================================================================
+[2025-12-08T10:45:56.439+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.14s           2025-12-08T03:45:40
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T03:45:47
+================================================================================
+[2025-12-08T10:46:26.847+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.12s           2025-12-08T03:46:10
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.12s           2025-12-08T03:46:17
+================================================================================
+[2025-12-08T10:46:57.237+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T03:46:48
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.12s           2025-12-08T03:46:41
+================================================================================
+[2025-12-08T10:47:27.637+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T03:47:18
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.12s           2025-12-08T03:47:11
+================================================================================
+[2025-12-08T10:47:58.036+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T03:47:48
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.13s           2025-12-08T03:47:41
+================================================================================
+[2025-12-08T10:48:14.341+0700] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-12-08T10:48:14.396+0700] {manager.py:740} INFO - There are 2 files in /opt/airflow/dags
+[2025-12-08T10:48:28.329+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.16s           2025-12-08T03:48:12
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T03:48:19
+================================================================================
+[2025-12-08T10:48:58.729+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.13s           2025-12-08T03:48:42
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T03:48:49
+================================================================================
+[2025-12-08T10:49:29.140+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.13s           2025-12-08T03:49:12
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T03:49:20
+================================================================================
+[2025-12-08T10:49:59.553+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.15s           2025-12-08T03:49:50
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.12s           2025-12-08T03:49:43
+================================================================================
+[2025-12-08T10:50:29.956+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T03:50:20
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.13s           2025-12-08T03:50:13
+================================================================================
+[2025-12-08T10:51:00.334+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T03:50:51
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.12s           2025-12-08T03:50:44
+================================================================================
+[2025-12-08T10:51:30.633+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.14s           2025-12-08T03:51:14
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T03:51:21
+================================================================================
+[2025-12-08T10:52:01.030+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.13s           2025-12-08T03:51:44
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T03:51:52
+================================================================================
+[2025-12-08T10:52:31.437+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.14s           2025-12-08T03:52:15
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T03:52:22
+================================================================================
+[2025-12-08T10:53:01.840+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T03:52:52
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.13s           2025-12-08T03:52:45
+================================================================================
+[2025-12-08T10:53:14.943+0700] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-12-08T10:53:14.993+0700] {manager.py:740} INFO - There are 2 files in /opt/airflow/dags
+[2025-12-08T10:53:32.288+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.15s           2025-12-08T03:53:23
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.12s           2025-12-08T03:53:16
+================================================================================
+[2025-12-08T10:54:02.697+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.14s           2025-12-08T03:53:46
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T03:53:53
+================================================================================
+[2025-12-08T10:54:33.092+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T03:54:24
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.12s           2025-12-08T03:54:16
+================================================================================
+[2025-12-08T10:55:03.436+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.25s           2025-12-08T03:54:47
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.14s           2025-12-08T03:54:54
+================================================================================
+[2025-12-08T10:55:33.841+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.15s           2025-12-08T03:55:17
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.12s           2025-12-08T03:55:24
+================================================================================
+[2025-12-08T10:56:04.230+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T03:55:55
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.13s           2025-12-08T03:55:48
+================================================================================
+[2025-12-08T10:56:34.618+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T03:56:25
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.13s           2025-12-08T03:56:18
+================================================================================
+[2025-12-08T10:57:05.020+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.14s           2025-12-08T03:56:56
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.13s           2025-12-08T03:56:48
+================================================================================
+[2025-12-08T10:57:35.408+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T03:57:26
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.12s           2025-12-08T03:57:19
+================================================================================
+[2025-12-09T00:27:50.032+0700] {manager.py:470} INFO - Processing files using up to 2 processes at a time 
+[2025-12-09T00:27:50.042+0700] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2025-12-09T00:27:50.048+0700] {manager.py:472} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-12-09T00:27:50.050+0700] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-12-09T00:27:50.203+0700] {manager.py:740} INFO - There are 2 files in /opt/airflow/dags
+[2025-12-09T00:27:50.447+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/dmart/dm_mplus_billing.py               65  0.11s             0           0
+/opt/airflow/dags/source_to_target/drive_to_refine.py     64  0.14s             0           0
+================================================================================
+[2025-12-09T00:28:20.705+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.77s           2025-12-08T17:27:51
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.76s           2025-12-08T17:27:51
+================================================================================
+[2025-12-09T00:28:50.713+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.15s           2025-12-08T17:28:21
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.15s           2025-12-08T17:28:21
+================================================================================
+[2025-12-09T00:29:21.103+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T17:28:51
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.13s           2025-12-08T17:28:51
+================================================================================
+[2025-12-09T00:29:51.540+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.18s           2025-12-08T17:29:22
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.17s           2025-12-08T17:29:22
+================================================================================
+[2025-12-09T00:30:09.208+0700] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2025-12-09T00:36:40.343+0700] {manager.py:470} INFO - Processing files using up to 2 processes at a time 
+[2025-12-09T00:36:40.346+0700] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2025-12-09T00:36:40.348+0700] {manager.py:472} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-12-09T00:36:40.350+0700] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-12-09T00:36:40.493+0700] {manager.py:740} INFO - There are 2 files in /opt/airflow/dags
+[2025-12-09T00:36:40.746+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/dmart/dm_mplus_billing.py               54  0.10s             0           0
+/opt/airflow/dags/source_to_target/drive_to_refine.py     53  0.13s             0           0
+================================================================================
+[2025-12-09T00:37:10.999+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.58s           2025-12-08T17:36:41
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.56s           2025-12-08T17:36:41
+================================================================================
+[2025-12-09T00:37:41.712+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py     76  0.02s             1           0  0.16s           2025-12-08T17:37:11
+/opt/airflow/dags/dmart/dm_mplus_billing.py               77  0.00s             1           0  0.15s           2025-12-08T17:37:11
+================================================================================
+[2025-12-09T00:38:12.122+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py     84  0.01s             1           0  0.14s           2025-12-08T17:37:41
+/opt/airflow/dags/dmart/dm_mplus_billing.py               85  0.00s             1           0  0.14s           2025-12-08T17:37:41
+================================================================================
+[2025-12-09T00:38:42.389+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py     93  0.01s             1           0  0.15s           2025-12-08T17:38:12
+/opt/airflow/dags/dmart/dm_mplus_billing.py               94  0.00s             1           0  0.13s           2025-12-08T17:38:12
+================================================================================
+[2025-12-09T00:39:12.738+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py    101  0.02s             1           0  0.16s           2025-12-08T17:38:42
+/opt/airflow/dags/dmart/dm_mplus_billing.py              102  0.00s             1           0  0.15s           2025-12-08T17:38:42
+================================================================================
+[2025-12-09T00:39:43.049+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py    109  0.01s             1           0  0.16s           2025-12-08T17:39:12
+/opt/airflow/dags/dmart/dm_mplus_billing.py              110  0.00s             1           0  0.16s           2025-12-08T17:39:12
+================================================================================
+[2025-12-09T00:40:13.355+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py    117  0.01s             1           0  0.15s           2025-12-08T17:39:43
+/opt/airflow/dags/dmart/dm_mplus_billing.py              118  0.00s             1           0  0.14s           2025-12-08T17:39:43
+================================================================================
+[2025-12-09T00:40:43.662+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py    125  0.02s             1           0  0.15s           2025-12-08T17:40:13
+/opt/airflow/dags/dmart/dm_mplus_billing.py              126  0.00s             1           0  0.14s           2025-12-08T17:40:13
+================================================================================
+[2025-12-09T00:41:13.938+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py    133  0.01s             1           0  0.17s           2025-12-08T17:40:43
+/opt/airflow/dags/dmart/dm_mplus_billing.py              134  0.00s             1           0  0.15s           2025-12-08T17:40:43
+================================================================================
+[2025-12-09T00:41:18.191+0700] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2025-12-09T00:43:30.353+0700] {manager.py:470} INFO - Processing files using up to 2 processes at a time 
+[2025-12-09T00:43:30.355+0700] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2025-12-09T00:43:30.357+0700] {manager.py:472} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-12-09T00:43:30.359+0700] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-12-09T00:43:30.487+0700] {manager.py:740} INFO - There are 2 files in /opt/airflow/dags
+[2025-12-09T00:43:30.710+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/dmart/dm_mplus_billing.py               67  0.09s             0           0
+/opt/airflow/dags/source_to_target/drive_to_refine.py     66  0.13s             0           0
+================================================================================
+[2025-12-09T00:44:00.975+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.82s           2025-12-08T17:43:31
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.79s           2025-12-08T17:43:31
+================================================================================
+[2025-12-09T00:44:31.054+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.17s           2025-12-08T17:44:01
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.16s           2025-12-08T17:44:01
+================================================================================
+[2025-12-09T00:45:01.299+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.16s           2025-12-08T17:44:32
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.14s           2025-12-08T17:44:32
+================================================================================
+[2025-12-09T00:45:31.576+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.14s           2025-12-08T17:45:02
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.13s           2025-12-08T17:45:02
+================================================================================
+[2025-12-09T00:46:01.946+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.16s           2025-12-08T17:45:32
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.16s           2025-12-08T17:45:32
+================================================================================
+[2025-12-09T00:46:32.354+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.16s           2025-12-08T17:46:03
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.16s           2025-12-08T17:46:03
+================================================================================
+[2025-12-09T00:47:02.623+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.14s           2025-12-08T17:46:33
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.12s           2025-12-08T17:46:33
+================================================================================
+[2025-12-09T00:47:32.953+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.17s           2025-12-08T17:47:03
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.16s           2025-12-08T17:47:03
+================================================================================
+[2025-12-09T00:48:03.379+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.17s           2025-12-08T17:47:34
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.17s           2025-12-08T17:47:34
+================================================================================
+[2025-12-09T00:48:30.605+0700] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-12-09T00:48:30.659+0700] {manager.py:740} INFO - There are 2 files in /opt/airflow/dags
+[2025-12-09T00:48:33.696+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.15s           2025-12-08T17:48:04
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.14s           2025-12-08T17:48:04
+================================================================================
+[2025-12-09T00:49:04.091+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.14s           2025-12-08T17:48:34
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.13s           2025-12-08T17:48:34
+================================================================================
+[2025-12-09T00:49:34.348+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.14s           2025-12-08T17:49:05
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.14s           2025-12-08T17:49:05
+================================================================================
+[2025-12-09T00:50:04.758+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.15s           2025-12-08T17:49:35
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.15s           2025-12-08T17:49:35
+================================================================================
+[2025-12-09T00:50:35.047+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.15s           2025-12-08T17:50:05
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.14s           2025-12-08T17:50:05
+================================================================================
+[2025-12-09T00:51:05.395+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.24s           2025-12-08T17:50:36
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.23s           2025-12-08T17:50:36
+================================================================================
+[2025-12-09T00:51:35.816+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.14s           2025-12-08T17:51:07
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.14s           2025-12-08T17:51:06
+================================================================================
+[2025-12-09T00:52:06.079+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.23s           2025-12-08T17:51:37
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.19s           2025-12-08T17:51:38
+================================================================================
+[2025-12-09T00:52:36.347+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T17:52:07
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.13s           2025-12-08T17:52:08
+================================================================================
+[2025-12-09T00:53:06.761+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.14s           2025-12-08T17:52:37
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.13s           2025-12-08T17:52:38
+================================================================================
+[2025-12-09T00:53:31.167+0700] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-12-09T00:53:31.237+0700] {manager.py:740} INFO - There are 2 files in /opt/airflow/dags
+[2025-12-09T00:53:37.306+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.17s           2025-12-08T17:53:07
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.14s           2025-12-08T17:53:09
+================================================================================
+[2025-12-09T00:54:07.751+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.24s           2025-12-08T17:53:39
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.15s           2025-12-08T17:53:38
+================================================================================
+[2025-12-09T00:54:38.183+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.15s           2025-12-08T17:54:08
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.14s           2025-12-08T17:54:10
+================================================================================
+[2025-12-09T00:55:08.741+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.14s           2025-12-08T17:54:39
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.14s           2025-12-08T17:54:40
+================================================================================
+[2025-12-09T00:55:39.191+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.16s           2025-12-08T17:55:09
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.15s           2025-12-08T17:55:10
+================================================================================
+[2025-12-09T00:56:09.612+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.14s           2025-12-08T17:55:41
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T17:55:40
+================================================================================
+[2025-12-09T00:56:40.081+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.17s           2025-12-08T17:56:10
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.16s           2025-12-08T17:56:11
+================================================================================
+[2025-12-09T00:57:10.494+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.14s           2025-12-08T17:56:42
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.14s           2025-12-08T17:56:41
+================================================================================
+[2025-12-09T00:57:40.817+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.25s           2025-12-08T17:57:11
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.24s           2025-12-08T17:57:12
+================================================================================
+[2025-12-09T00:58:11.097+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.15s           2025-12-08T17:57:41
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.14s           2025-12-08T17:57:42
+================================================================================
+[2025-12-09T00:58:31.429+0700] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-12-09T00:58:31.494+0700] {manager.py:740} INFO - There are 2 files in /opt/airflow/dags
+[2025-12-09T00:58:41.599+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.14s           2025-12-08T17:58:12
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.14s           2025-12-08T17:58:13
+================================================================================
+[2025-12-09T00:59:12.023+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.14s           2025-12-08T17:58:43
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.14s           2025-12-08T17:58:42
+================================================================================
+[2025-12-09T00:59:42.463+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.15s           2025-12-08T17:59:14
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.15s           2025-12-08T17:59:13
+================================================================================
+[2025-12-09T01:00:12.931+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.18s           2025-12-08T17:59:44
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.17s           2025-12-08T17:59:43
+================================================================================
+[2025-12-09T01:00:43.401+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.19s           2025-12-08T18:00:15
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.18s           2025-12-08T18:00:14
+================================================================================
+[2025-12-09T01:01:13.813+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.16s           2025-12-08T18:00:44
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.15s           2025-12-08T18:00:45
+================================================================================
+[2025-12-09T01:01:44.257+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.18s           2025-12-08T18:01:16
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.16s           2025-12-08T18:01:14
+================================================================================
+[2025-12-09T01:02:14.687+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.17s           2025-12-08T18:01:46
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.15s           2025-12-08T18:01:45
+================================================================================
+[2025-12-09T01:02:45.115+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.17s           2025-12-08T18:02:16
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.15s           2025-12-08T18:02:15
+================================================================================
+[2025-12-09T01:03:46.768+0700] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-12-09T01:03:49.391+0700] {manager.py:740} INFO - There are 2 files in /opt/airflow/dags
+[2025-12-09T01:04:02.843+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  1.18s           2025-12-08T18:03:50
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  1.12s           2025-12-08T18:03:50
+================================================================================
+[2025-12-09T01:04:33.107+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.16s           2025-12-08T18:04:21
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.15s           2025-12-08T18:04:21
+================================================================================
+[2025-12-09T01:05:03.520+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.15s           2025-12-08T18:04:51
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.14s           2025-12-08T18:04:51
+================================================================================
+[2025-12-09T01:05:33.784+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.15s           2025-12-08T18:05:21
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.15s           2025-12-08T18:05:21
+================================================================================
+[2025-12-09T01:06:04.189+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.14s           2025-12-08T18:05:52
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T18:05:52
+================================================================================
+[2025-12-09T01:06:34.597+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.14s           2025-12-08T18:06:22
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.14s           2025-12-08T18:06:22
+================================================================================
+[2025-12-09T01:07:04.898+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.19s           2025-12-08T18:06:52
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.18s           2025-12-08T18:06:52
+================================================================================
+[2025-12-09T01:07:35.293+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.14s           2025-12-08T18:07:23
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.14s           2025-12-08T18:07:23
+================================================================================
+[2025-12-09T01:08:05.751+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.17s           2025-12-08T18:07:53
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.16s           2025-12-08T18:07:53
+================================================================================
+[2025-12-09T01:08:36.138+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.14s           2025-12-08T18:08:24
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.14s           2025-12-08T18:08:24
+================================================================================
+[2025-12-09T01:08:47.224+0700] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-12-09T01:08:47.282+0700] {manager.py:740} INFO - There are 2 files in /opt/airflow/dags
+[2025-12-09T01:09:00.490+0700] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2025-12-09T01:16:29.857+0700] {manager.py:470} INFO - Processing files using up to 2 processes at a time 
+[2025-12-09T01:16:29.860+0700] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2025-12-09T01:16:29.862+0700] {manager.py:472} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-12-09T01:16:29.864+0700] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-12-09T01:16:30.204+0700] {manager.py:740} INFO - There are 2 files in /opt/airflow/dags
+[2025-12-09T01:16:30.660+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/dmart/dm_mplus_billing.py               66  0.21s             0           0
+/opt/airflow/dags/source_to_target/drive_to_refine.py     67  0.17s             0           0
+================================================================================
+[2025-12-09T01:17:00.677+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.97s           2025-12-08T18:16:31
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     0           1  0.33s           2025-12-08T18:16:30
+================================================================================
+[2025-12-09T01:17:31.476+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.15s           2025-12-08T18:17:02
+/opt/airflow/dags/dmart/dm_mplus_billing.py               82  0.01s             0           1  0.13s           2025-12-08T18:17:01
+================================================================================
+[2025-12-09T01:18:01.846+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.17s           2025-12-08T18:17:32
+/opt/airflow/dags/dmart/dm_mplus_billing.py               90  0.00s             0           1  0.12s           2025-12-08T18:17:31
+================================================================================
+[2025-12-09T01:18:32.207+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T18:18:03
+/opt/airflow/dags/dmart/dm_mplus_billing.py               99  0.00s             0           1  0.11s           2025-12-08T18:18:01
+================================================================================
+[2025-12-09T01:19:02.529+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.15s           2025-12-08T18:18:33
+/opt/airflow/dags/dmart/dm_mplus_billing.py              107  0.00s             0           1  0.08s           2025-12-08T18:18:32
+================================================================================
+[2025-12-09T01:19:32.885+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.15s           2025-12-08T18:19:03
+/opt/airflow/dags/dmart/dm_mplus_billing.py              116  0.00s             0           1  0.10s           2025-12-08T18:19:02
+================================================================================
+[2025-12-09T01:20:03.248+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.16s           2025-12-08T18:19:34
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     0           1  0.08s           2025-12-08T18:19:38
+================================================================================
+[2025-12-09T01:20:33.564+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T18:20:04
+/opt/airflow/dags/dmart/dm_mplus_billing.py              133  0.00s             0           1  0.10s           2025-12-08T18:20:08
+================================================================================
+[2025-12-09T01:21:03.899+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py              141  0.00s             1           0  0.32s           2025-12-08T18:20:33
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.18s           2025-12-08T18:20:34
+================================================================================
+[2025-12-09T01:21:30.359+0700] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-12-09T01:21:30.417+0700] {manager.py:740} INFO - There are 2 files in /opt/airflow/dags
+[2025-12-09T01:21:34.474+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py              149  0.00s             1           0  0.18s           2025-12-08T18:21:04
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.12s           2025-12-08T18:21:05
+================================================================================
+[2025-12-09T01:22:04.882+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py              157  0.00s             1           0  0.13s           2025-12-08T18:21:34
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.12s           2025-12-08T18:21:35
+================================================================================
+[2025-12-09T01:22:35.313+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.21s           2025-12-08T18:22:27
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T18:22:06
+================================================================================
+[2025-12-09T01:23:05.672+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.15s           2025-12-08T18:22:57
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T18:22:36
+================================================================================
+[2025-12-09T01:23:36.051+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.17s           2025-12-08T18:23:28
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.14s           2025-12-08T18:23:06
+================================================================================
+[2025-12-09T01:24:06.412+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.13s           2025-12-08T18:23:58
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T18:23:37
+================================================================================
+[2025-12-09T01:24:36.778+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.12s           2025-12-08T18:24:28
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.12s           2025-12-08T18:24:07
+================================================================================
+[2025-12-09T01:25:07.138+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.13s           2025-12-08T18:24:59
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.12s           2025-12-08T18:24:37
+================================================================================
+[2025-12-09T01:25:37.534+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.15s           2025-12-08T18:25:08
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.14s           2025-12-08T18:25:29
+================================================================================
+[2025-12-09T01:26:07.920+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.13s           2025-12-08T18:25:59
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T18:25:38
+================================================================================
+[2025-12-09T01:26:31.234+0700] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-12-09T01:26:31.290+0700] {manager.py:740} INFO - There are 2 files in /opt/airflow/dags
+[2025-12-09T01:26:38.366+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.14s           2025-12-08T18:26:30
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T18:26:09
+================================================================================
+[2025-12-09T01:27:08.732+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.14s           2025-12-08T18:27:00
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T18:26:39
+================================================================================
+[2025-12-09T01:27:39.108+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.13s           2025-12-08T18:27:31
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T18:27:09
+================================================================================
+[2025-12-09T01:28:09.506+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.15s           2025-12-08T18:27:40
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.13s           2025-12-08T18:28:01
+================================================================================
+[2025-12-09T01:28:39.781+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.16s           2025-12-08T18:28:10
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.13s           2025-12-08T18:28:31
+================================================================================
+[2025-12-09T01:29:10.167+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.15s           2025-12-08T18:29:02
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T18:28:40
+================================================================================
+[2025-12-09T01:29:40.532+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.13s           2025-12-08T18:29:32
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.12s           2025-12-08T18:29:11
+================================================================================
+[2025-12-09T01:30:10.882+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.14s           2025-12-08T18:30:02
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.12s           2025-12-08T18:29:41
+================================================================================
+[2025-12-09T01:30:41.252+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.12s           2025-12-08T18:30:33
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.12s           2025-12-08T18:30:12
+================================================================================
+[2025-12-09T01:31:11.624+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.13s           2025-12-08T18:31:03
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.12s           2025-12-08T18:30:42
+================================================================================
+[2025-12-09T01:31:31.827+0700] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-12-09T01:31:31.914+0700] {manager.py:740} INFO - There are 2 files in /opt/airflow/dags
+[2025-12-09T01:31:42.031+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.15s           2025-12-08T18:31:12
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.13s           2025-12-08T18:31:34
+================================================================================
+[2025-12-09T01:32:12.412+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.16s           2025-12-08T18:32:04
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T18:31:43
+================================================================================
+[2025-12-09T01:32:42.775+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.13s           2025-12-08T18:32:34
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T18:32:13
+================================================================================
+[2025-12-09T01:33:13.134+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.16s           2025-12-08T18:33:05
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.12s           2025-12-08T18:32:43
+================================================================================
+[2025-12-09T01:33:43.505+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T18:33:14
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.12s           2025-12-08T18:33:35
+================================================================================
+[2025-12-09T01:34:13.967+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.23s           2025-12-08T18:34:06
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.17s           2025-12-08T18:33:44
+================================================================================
+[2025-12-09T01:34:44.475+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.19s           2025-12-08T18:34:15
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.13s           2025-12-08T18:34:36
+================================================================================
+[2025-12-09T01:35:14.844+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.14s           2025-12-08T18:35:06
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.12s           2025-12-08T18:34:45
+================================================================================
+[2025-12-09T01:35:45.242+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.16s           2025-12-08T18:35:37
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T18:35:15
+================================================================================
+[2025-12-09T01:36:15.650+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.15s           2025-12-08T18:36:07
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.14s           2025-12-08T18:35:46
+================================================================================
+[2025-12-09T01:36:31.899+0700] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-12-09T01:36:31.962+0700] {manager.py:740} INFO - There are 2 files in /opt/airflow/dags
+[2025-12-09T01:36:45.922+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.13s           2025-12-08T18:36:37
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.12s           2025-12-08T18:36:16
+================================================================================
+[2025-12-09T01:37:16.303+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.13s           2025-12-08T18:37:08
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.12s           2025-12-08T18:36:47
+================================================================================
+[2025-12-09T01:37:46.666+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.13s           2025-12-08T18:37:38
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.13s           2025-12-08T18:37:17
+================================================================================
+[2025-12-09T01:38:06.658+0700] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15

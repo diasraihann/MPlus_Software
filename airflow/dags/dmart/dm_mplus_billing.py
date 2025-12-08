@@ -24,6 +24,16 @@ dag = DAG(
     tags=["mplus", "refine", "dmart"],
 )
 
+# Task : Running Refine
+ref_mplus_stt = BashOperator(
+    task_id="ref_mplus_stt",
+    bash_command=(
+        "cd /script/refine ; "
+        "python ref_mplus_stt.py || exit 3"
+    ),
+    dag=dag,
+)
+
 # Task : Running dmart
 dm_mplus_billing = BashOperator(
     task_id="dm_mplus_billing",
@@ -33,3 +43,5 @@ dm_mplus_billing = BashOperator(
     ),
     dag=dag,
 )
+
+ref_mplus_stt >> dm_mplus_billing
