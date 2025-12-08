@@ -1434,3 +1434,45 @@
 [2025-12-08T09:27:40.578+0700] {logging_mixin.py:188} INFO - [2025-12-08T09:27:40.577+0700] {dag.py:3096} INFO - Sync 1 DAGs
 [2025-12-08T09:27:40.592+0700] {logging_mixin.py:188} INFO - [2025-12-08T09:27:40.592+0700] {dag.py:3954} INFO - Setting next_dagrun for drive_to_refine to None, run_after=None
 [2025-12-08T09:27:40.620+0700] {processor.py:183} INFO - Processing /opt/airflow/dags/source_to_target/drive_to_refine.py took 0.121 seconds
+[2025-12-08T09:28:11.177+0700] {processor.py:161} INFO - Started process (PID=405) to work on /opt/airflow/dags/source_to_target/drive_to_refine.py
+[2025-12-08T09:28:11.179+0700] {processor.py:830} INFO - Processing file /opt/airflow/dags/source_to_target/drive_to_refine.py for tasks to queue
+[2025-12-08T09:28:11.180+0700] {logging_mixin.py:188} INFO - [2025-12-08T09:28:11.180+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/source_to_target/drive_to_refine.py
+[2025-12-08T09:28:11.212+0700] {processor.py:840} INFO - DAG(s) 'drive_to_refine' retrieved from /opt/airflow/dags/source_to_target/drive_to_refine.py
+[2025-12-08T09:28:11.257+0700] {logging_mixin.py:188} INFO - [2025-12-08T09:28:11.256+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-08T09:28:11.275+0700] {logging_mixin.py:188} INFO - [2025-12-08T09:28:11.275+0700] {dag.py:3954} INFO - Setting next_dagrun for drive_to_refine to None, run_after=None
+[2025-12-08T09:28:11.304+0700] {processor.py:183} INFO - Processing /opt/airflow/dags/source_to_target/drive_to_refine.py took 0.135 seconds
+[2025-12-08T09:28:41.622+0700] {processor.py:161} INFO - Started process (PID=413) to work on /opt/airflow/dags/source_to_target/drive_to_refine.py
+[2025-12-08T09:28:41.624+0700] {processor.py:830} INFO - Processing file /opt/airflow/dags/source_to_target/drive_to_refine.py for tasks to queue
+[2025-12-08T09:28:41.625+0700] {logging_mixin.py:188} INFO - [2025-12-08T09:28:41.625+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/source_to_target/drive_to_refine.py
+[2025-12-08T09:28:41.655+0700] {processor.py:840} INFO - DAG(s) 'drive_to_refine' retrieved from /opt/airflow/dags/source_to_target/drive_to_refine.py
+[2025-12-08T09:28:41.700+0700] {logging_mixin.py:188} INFO - [2025-12-08T09:28:41.699+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-08T09:28:41.717+0700] {logging_mixin.py:188} INFO - [2025-12-08T09:28:41.717+0700] {dag.py:3954} INFO - Setting next_dagrun for drive_to_refine to None, run_after=None
+[2025-12-08T09:28:41.746+0700] {processor.py:183} INFO - Processing /opt/airflow/dags/source_to_target/drive_to_refine.py took 0.132 seconds
+[2025-12-08T09:29:12.011+0700] {processor.py:161} INFO - Started process (PID=421) to work on /opt/airflow/dags/source_to_target/drive_to_refine.py
+[2025-12-08T09:29:12.013+0700] {processor.py:830} INFO - Processing file /opt/airflow/dags/source_to_target/drive_to_refine.py for tasks to queue
+[2025-12-08T09:29:12.015+0700] {logging_mixin.py:188} INFO - [2025-12-08T09:29:12.014+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/source_to_target/drive_to_refine.py
+[2025-12-08T09:29:12.050+0700] {processor.py:840} INFO - DAG(s) 'drive_to_refine' retrieved from /opt/airflow/dags/source_to_target/drive_to_refine.py
+[2025-12-08T09:29:12.091+0700] {logging_mixin.py:188} INFO - [2025-12-08T09:29:12.090+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-08T09:29:12.107+0700] {logging_mixin.py:188} INFO - [2025-12-08T09:29:12.106+0700] {dag.py:3954} INFO - Setting next_dagrun for drive_to_refine to None, run_after=None
+[2025-12-08T09:29:12.134+0700] {processor.py:183} INFO - Processing /opt/airflow/dags/source_to_target/drive_to_refine.py took 0.136 seconds
+[2025-12-08T09:29:42.508+0700] {processor.py:161} INFO - Started process (PID=430) to work on /opt/airflow/dags/source_to_target/drive_to_refine.py
+[2025-12-08T09:29:42.509+0700] {processor.py:830} INFO - Processing file /opt/airflow/dags/source_to_target/drive_to_refine.py for tasks to queue
+[2025-12-08T09:29:42.510+0700] {logging_mixin.py:188} INFO - [2025-12-08T09:29:42.510+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/source_to_target/drive_to_refine.py
+[2025-12-08T09:29:42.534+0700] {processor.py:840} INFO - DAG(s) 'drive_to_refine' retrieved from /opt/airflow/dags/source_to_target/drive_to_refine.py
+[2025-12-08T09:29:42.569+0700] {logging_mixin.py:188} INFO - [2025-12-08T09:29:42.568+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-08T09:29:42.582+0700] {logging_mixin.py:188} INFO - [2025-12-08T09:29:42.582+0700] {dag.py:3954} INFO - Setting next_dagrun for drive_to_refine to None, run_after=None
+[2025-12-08T09:29:42.609+0700] {processor.py:183} INFO - Processing /opt/airflow/dags/source_to_target/drive_to_refine.py took 0.108 seconds
+[2025-12-08T09:30:13.042+0700] {processor.py:161} INFO - Started process (PID=438) to work on /opt/airflow/dags/source_to_target/drive_to_refine.py
+[2025-12-08T09:30:13.044+0700] {processor.py:830} INFO - Processing file /opt/airflow/dags/source_to_target/drive_to_refine.py for tasks to queue
+[2025-12-08T09:30:13.047+0700] {logging_mixin.py:188} INFO - [2025-12-08T09:30:13.046+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/source_to_target/drive_to_refine.py
+[2025-12-08T09:30:13.099+0700] {processor.py:840} INFO - DAG(s) 'drive_to_refine' retrieved from /opt/airflow/dags/source_to_target/drive_to_refine.py
+[2025-12-08T09:30:13.183+0700] {logging_mixin.py:188} INFO - [2025-12-08T09:30:13.182+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-08T09:30:13.207+0700] {logging_mixin.py:188} INFO - [2025-12-08T09:30:13.206+0700] {dag.py:3954} INFO - Setting next_dagrun for drive_to_refine to None, run_after=None
+[2025-12-08T09:30:13.240+0700] {processor.py:183} INFO - Processing /opt/airflow/dags/source_to_target/drive_to_refine.py took 0.217 seconds
+[2025-12-08T09:30:43.523+0700] {processor.py:161} INFO - Started process (PID=446) to work on /opt/airflow/dags/source_to_target/drive_to_refine.py
+[2025-12-08T09:30:43.524+0700] {processor.py:830} INFO - Processing file /opt/airflow/dags/source_to_target/drive_to_refine.py for tasks to queue
+[2025-12-08T09:30:43.525+0700] {logging_mixin.py:188} INFO - [2025-12-08T09:30:43.525+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/source_to_target/drive_to_refine.py
+[2025-12-08T09:30:43.549+0700] {processor.py:840} INFO - DAG(s) 'drive_to_refine' retrieved from /opt/airflow/dags/source_to_target/drive_to_refine.py
+[2025-12-08T09:30:43.585+0700] {logging_mixin.py:188} INFO - [2025-12-08T09:30:43.585+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-08T09:30:43.599+0700] {logging_mixin.py:188} INFO - [2025-12-08T09:30:43.599+0700] {dag.py:3954} INFO - Setting next_dagrun for drive_to_refine to None, run_after=None
+[2025-12-08T09:30:43.627+0700] {processor.py:183} INFO - Processing /opt/airflow/dags/source_to_target/drive_to_refine.py took 0.110 seconds

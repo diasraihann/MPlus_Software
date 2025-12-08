@@ -3798,3 +3798,12 @@ File Path                                              PID    Runtime      # DAG
 /opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.14s           2025-12-08T02:27:10
 /opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.12s           2025-12-08T02:27:04
 ================================================================================
+[2025-12-08T09:27:51.594+0700] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dmart/dm_mplus_billing.py                                     1           0  0.22s           2025-12-08T02:27:34
+/opt/airflow/dags/source_to_target/drive_to_refine.py                           1           0  0.15s           2025-12-08T02:27:40
+================================================================================

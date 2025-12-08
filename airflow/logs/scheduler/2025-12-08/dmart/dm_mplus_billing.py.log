@@ -1479,3 +1479,45 @@
 [2025-12-08T09:27:34.547+0700] {logging_mixin.py:188} INFO - [2025-12-08T09:27:34.546+0700] {dag.py:3096} INFO - Sync 1 DAGs
 [2025-12-08T09:27:34.576+0700] {logging_mixin.py:188} INFO - [2025-12-08T09:27:34.575+0700] {dag.py:3954} INFO - Setting next_dagrun for dm_mplus_billing_dmart to None, run_after=None
 [2025-12-08T09:27:34.613+0700] {processor.py:183} INFO - Processing /opt/airflow/dags/dmart/dm_mplus_billing.py took 0.176 seconds
+[2025-12-08T09:28:04.804+0700] {processor.py:161} INFO - Started process (PID=404) to work on /opt/airflow/dags/dmart/dm_mplus_billing.py
+[2025-12-08T09:28:04.806+0700] {processor.py:830} INFO - Processing file /opt/airflow/dags/dmart/dm_mplus_billing.py for tasks to queue
+[2025-12-08T09:28:04.809+0700] {logging_mixin.py:188} INFO - [2025-12-08T09:28:04.808+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dmart/dm_mplus_billing.py
+[2025-12-08T09:28:04.865+0700] {processor.py:840} INFO - DAG(s) 'dm_mplus_billing_dmart' retrieved from /opt/airflow/dags/dmart/dm_mplus_billing.py
+[2025-12-08T09:28:04.956+0700] {logging_mixin.py:188} INFO - [2025-12-08T09:28:04.956+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-08T09:28:04.985+0700] {logging_mixin.py:188} INFO - [2025-12-08T09:28:04.984+0700] {dag.py:3954} INFO - Setting next_dagrun for dm_mplus_billing_dmart to None, run_after=None
+[2025-12-08T09:28:05.061+0700] {processor.py:183} INFO - Processing /opt/airflow/dags/dmart/dm_mplus_billing.py took 0.276 seconds
+[2025-12-08T09:28:35.421+0700] {processor.py:161} INFO - Started process (PID=412) to work on /opt/airflow/dags/dmart/dm_mplus_billing.py
+[2025-12-08T09:28:35.422+0700] {processor.py:830} INFO - Processing file /opt/airflow/dags/dmart/dm_mplus_billing.py for tasks to queue
+[2025-12-08T09:28:35.424+0700] {logging_mixin.py:188} INFO - [2025-12-08T09:28:35.423+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dmart/dm_mplus_billing.py
+[2025-12-08T09:28:35.457+0700] {processor.py:840} INFO - DAG(s) 'dm_mplus_billing_dmart' retrieved from /opt/airflow/dags/dmart/dm_mplus_billing.py
+[2025-12-08T09:28:35.501+0700] {logging_mixin.py:188} INFO - [2025-12-08T09:28:35.501+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-08T09:28:35.518+0700] {logging_mixin.py:188} INFO - [2025-12-08T09:28:35.518+0700] {dag.py:3954} INFO - Setting next_dagrun for dm_mplus_billing_dmart to None, run_after=None
+[2025-12-08T09:28:35.546+0700] {processor.py:183} INFO - Processing /opt/airflow/dags/dmart/dm_mplus_billing.py took 0.133 seconds
+[2025-12-08T09:29:05.859+0700] {processor.py:161} INFO - Started process (PID=420) to work on /opt/airflow/dags/dmart/dm_mplus_billing.py
+[2025-12-08T09:29:05.861+0700] {processor.py:830} INFO - Processing file /opt/airflow/dags/dmart/dm_mplus_billing.py for tasks to queue
+[2025-12-08T09:29:05.863+0700] {logging_mixin.py:188} INFO - [2025-12-08T09:29:05.863+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dmart/dm_mplus_billing.py
+[2025-12-08T09:29:05.897+0700] {processor.py:840} INFO - DAG(s) 'dm_mplus_billing_dmart' retrieved from /opt/airflow/dags/dmart/dm_mplus_billing.py
+[2025-12-08T09:29:05.962+0700] {logging_mixin.py:188} INFO - [2025-12-08T09:29:05.961+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-08T09:29:05.984+0700] {logging_mixin.py:188} INFO - [2025-12-08T09:29:05.984+0700] {dag.py:3954} INFO - Setting next_dagrun for dm_mplus_billing_dmart to None, run_after=None
+[2025-12-08T09:29:06.011+0700] {processor.py:183} INFO - Processing /opt/airflow/dags/dmart/dm_mplus_billing.py took 0.161 seconds
+[2025-12-08T09:29:36.443+0700] {processor.py:161} INFO - Started process (PID=429) to work on /opt/airflow/dags/dmart/dm_mplus_billing.py
+[2025-12-08T09:29:36.445+0700] {processor.py:830} INFO - Processing file /opt/airflow/dags/dmart/dm_mplus_billing.py for tasks to queue
+[2025-12-08T09:29:36.447+0700] {logging_mixin.py:188} INFO - [2025-12-08T09:29:36.446+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dmart/dm_mplus_billing.py
+[2025-12-08T09:29:36.473+0700] {processor.py:840} INFO - DAG(s) 'dm_mplus_billing_dmart' retrieved from /opt/airflow/dags/dmart/dm_mplus_billing.py
+[2025-12-08T09:29:36.510+0700] {logging_mixin.py:188} INFO - [2025-12-08T09:29:36.510+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-08T09:29:36.524+0700] {logging_mixin.py:188} INFO - [2025-12-08T09:29:36.523+0700] {dag.py:3954} INFO - Setting next_dagrun for dm_mplus_billing_dmart to None, run_after=None
+[2025-12-08T09:29:36.554+0700] {processor.py:183} INFO - Processing /opt/airflow/dags/dmart/dm_mplus_billing.py took 0.117 seconds
+[2025-12-08T09:30:06.889+0700] {processor.py:161} INFO - Started process (PID=437) to work on /opt/airflow/dags/dmart/dm_mplus_billing.py
+[2025-12-08T09:30:06.891+0700] {processor.py:830} INFO - Processing file /opt/airflow/dags/dmart/dm_mplus_billing.py for tasks to queue
+[2025-12-08T09:30:06.892+0700] {logging_mixin.py:188} INFO - [2025-12-08T09:30:06.892+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dmart/dm_mplus_billing.py
+[2025-12-08T09:30:06.930+0700] {processor.py:840} INFO - DAG(s) 'dm_mplus_billing_dmart' retrieved from /opt/airflow/dags/dmart/dm_mplus_billing.py
+[2025-12-08T09:30:06.992+0700] {logging_mixin.py:188} INFO - [2025-12-08T09:30:06.992+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-08T09:30:07.013+0700] {logging_mixin.py:188} INFO - [2025-12-08T09:30:07.013+0700] {dag.py:3954} INFO - Setting next_dagrun for dm_mplus_billing_dmart to None, run_after=None
+[2025-12-08T09:30:07.045+0700] {processor.py:183} INFO - Processing /opt/airflow/dags/dmart/dm_mplus_billing.py took 0.164 seconds
+[2025-12-08T09:30:37.339+0700] {processor.py:161} INFO - Started process (PID=445) to work on /opt/airflow/dags/dmart/dm_mplus_billing.py
+[2025-12-08T09:30:37.340+0700] {processor.py:830} INFO - Processing file /opt/airflow/dags/dmart/dm_mplus_billing.py for tasks to queue
+[2025-12-08T09:30:37.341+0700] {logging_mixin.py:188} INFO - [2025-12-08T09:30:37.341+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dmart/dm_mplus_billing.py
+[2025-12-08T09:30:37.366+0700] {processor.py:840} INFO - DAG(s) 'dm_mplus_billing_dmart' retrieved from /opt/airflow/dags/dmart/dm_mplus_billing.py
+[2025-12-08T09:30:37.410+0700] {logging_mixin.py:188} INFO - [2025-12-08T09:30:37.409+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-08T09:30:37.427+0700] {logging_mixin.py:188} INFO - [2025-12-08T09:30:37.426+0700] {dag.py:3954} INFO - Setting next_dagrun for dm_mplus_billing_dmart to None, run_after=None
+[2025-12-08T09:30:37.454+0700] {processor.py:183} INFO - Processing /opt/airflow/dags/dmart/dm_mplus_billing.py took 0.122 seconds
